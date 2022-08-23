@@ -1,0 +1,11 @@
+node_modules/
+docs/.vitepress/dist/
+
+.DS_Store
+yarn.lock
+yarn-error.log
+
+.git
+
+### VS Code ###
+.vscode/
