@@ -23,14 +23,7 @@ jobs:
         run: yarn build
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/.vitepress/dist
-
-
-      - name: copy file via ssh key
-        uses: appleboy/scp-action@master
+        uses: less-js/XXY5VP@main
         with:
           # 需要部署的文件地址
           source: docs/.vitepress/dist
