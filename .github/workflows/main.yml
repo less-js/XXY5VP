@@ -28,9 +28,9 @@ jobs:
           # 需要部署的文件地址
           SOURCE: docs/.vitepress/dist
           # SSH address  服务器地址
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}:${{ secrets.REMOTE_PORT }}
           # Remote dir path  服务器下部署文件存放路径
-          TARGET: ${{ secrets.REMOTE_PATH }}:${{ secrets.REMOTE_PORT }}
+          TARGET: ${{ secrets.REMOTE_PATH }}
           # SSH Port  服务器端口
           # port: ${{ secrets.REMOTE_PORT }}
           # SSH User name   用户名
