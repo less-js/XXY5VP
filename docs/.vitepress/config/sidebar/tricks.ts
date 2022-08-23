@@ -88,7 +88,7 @@ export const tricks: DefaultTheme.Sidebar | undefined = {
     },
     // Git
     {
-      text: 'Mac',
+      text: 'Git',
       collapsible: true,
       items: [
         {
@@ -98,6 +98,10 @@ export const tricks: DefaultTheme.Sidebar | undefined = {
         {
           text: 'Git ignore',
           link: '/tricks/git-ignore.md',
+        },
+        {
+          text: 'GitHub Actions自动部署',
+          link: '/tricks/git-github-actions.md',
         },
       ],
     },
