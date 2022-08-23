@@ -17,13 +17,15 @@ jobs:
         with:
           node-version: 16
           cache: yarn
-      - run: yarn install --frozen-lockfile
+
+      - name: Install
+      - run: yarn
 
       - name: Build
         run: yarn build
 
       - name: Deploy
-        uses: less-js/XXY5VP@main
+        uses: easingthemes/ssh-deploy@v2.0.7
         with:
           # 需要部署的文件地址
           source: docs/.vitepress/dist
