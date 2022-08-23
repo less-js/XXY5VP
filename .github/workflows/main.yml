@@ -23,7 +23,7 @@ jobs:
         run: yarn build
 
       - name: Deploy
-        uses: appleboy/scp-action@master
+        uses: appleboy/scp-action@master # 这里使用别人写好的方法
         with:
           # 需要部署的文件地址
           source: 'dist/*'
