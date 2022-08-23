@@ -26,16 +26,16 @@ jobs:
         uses: easingthemes/ssh-deploy@v2.0.7
         with:
           # 需要部署的文件地址
-          source: docs/.vitepress/dist
+          SOURCE: docs/.vitepress/dist
           # SSH address  服务器地址
-          host: ${{ secrets.REMOTE_HOST }}
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           # Remote dir path  服务器下部署文件存放路径
-          target: ${{ secrets.REMOTE_PATH }}
+          TARGET: ${{ secrets.REMOTE_PATH }}:${{ secrets.REMOTE_PORT }}
           # SSH Port  服务器端口
-          port: ${{ secrets.REMOTE_PORT }}
+          # port: ${{ secrets.REMOTE_PORT }}
           # SSH User name   用户名
-          username: ${{ secrets.USER_NAME }}
+          REMOTE_USER: ${{ secrets.USER_NAME }}
           # SSH User password  用户密码
           #  password: ${{ secrets.PASSWORD }}
           # key  密匙
-          key: ${{ secrets.SSH_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
