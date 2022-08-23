@@ -1,0 +1,48 @@
+name: Deploy
+
+# 触发workflow的条件
+on:
+  push:
+    # 只有 main 分支发生 push 事件时，才会触发 workflow
+    branches:
+      - main
+
+# jobs表示执行的一项或多项任务
+jobs:
+  deploy: # 任务的 job_id，具体名称自定义
+    runs-on: ubuntu-latest # runs-on 字段指定运行所需要的虚拟机环境。注意：这个是必填字段
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: yarn
+      - run: yarn install --frozen-lockfile
+
+      - name: Build
+        run: yarn build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vitepress/dist
+
+
+      - name: copy file via ssh key
+        uses: appleboy/scp-action@master
+        with:
+	        # 需要部署的文件地址
+          source: docs/.vitepress/dist
+          # SSH address  服务器地址
+          host: ${{ secrets.REMOTE_HOST }}
+          # Remote dir path  服务器下部署文件存放路径
+          target: ${{ secrets.REMOTE_PATH }}
+          # SSH Port  服务器端口
+          port: ${{ secrets.REMOTE_PORT }}
+          # SSH User name   用户名
+          username: ${{ secrets.USER_NAME }}
+          # SSH User password  用户密码
+          #  password: ${{ secrets.PASSWORD }}
+          # key  密匙
+          key: ${{ secrets.SSH_KEY }}
