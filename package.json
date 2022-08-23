@@ -1,0 +1,21 @@
+{
+  "name": "xxy5.com",
+  "version": "1.0.0",
+  "description": "码农叉叉歪",
+  "main": "index.js",
+  "author": "XXY",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs --port 9527"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  },
+  "dependencies": {
+    "sass": "^1.54.3",
+    "sass-loader": "^13.0.2"
+  }
+}
