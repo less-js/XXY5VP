@@ -1,14 +1,10 @@
 node_modules/
 docs/.vitepress/dist/
 
-
 .DS_Store
 yarn.lock
 
 .git
 
- 
-
- 
 ### VS Code ###
 .vscode/
