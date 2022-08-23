@@ -10,6 +10,7 @@ export default defineConfig({
   head,
   lastUpdated: true,
   // ignoreDeadLinks: true,
+  outDir: '../dist',
   themeConfig: {
     logo: '/images/logo.png',
     // siteTitle: '全栈小咸鱼',

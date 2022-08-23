@@ -1,5 +1,6 @@
 node_modules/
 docs/.vitepress/dist/
+dist/
 
 .DS_Store
 yarn-error.log
