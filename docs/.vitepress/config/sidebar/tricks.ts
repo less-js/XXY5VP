@@ -95,6 +95,10 @@ export const tricks: DefaultTheme.Sidebar | undefined = {
           text: 'Git常用命令',
           link: '/tricks/git-common-command.md',
         },
+        {
+          text: 'Git ignore',
+          link: '/tricks/git-ignore.md',
+        },
       ],
     },
     // Mac
