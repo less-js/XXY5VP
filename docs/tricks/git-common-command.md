@@ -32,10 +32,13 @@ head:
     git remote -v　　　　　
 
     # 删除关联对应的远程仓库地址
-    git remote rm origin　
+    git remote rm main
 
     # 把本地库的所有内容推送到远程库上
     git push -u origin main 　　
+
+    # 强制提交
+    git push -u origin main -f
 
     # 克隆git仓库
     git clone 远程仓库url                 
