@@ -78,12 +78,6 @@ const online = [
     info: '在线正则校验工具',
   },
   {
-    title: 'snippet generator',
-    link: 'https://snippet-generator.app/',
-    icon: '/images/logo/empty.svg',
-    info: '在线生成 vs code 代码片段工具',
-  },
-  {
     title: 'DeepL',
     link: 'https://www.deepl.com/translator',
     icon: '/images/logo/deepl.svg',
@@ -93,17 +87,38 @@ const online = [
     title: 'TinyPNG',
     link: 'https://tinify.cn/',
     icon: '/images/logo/TinyPNG.png',
-    info: '智能压缩您的WebP、JPEG和PNG图片',
+    info: '智能压缩您的 WebP、JPEG 和 PNG 图片',
+  },
+]
+
+const development = [
+  {
+    title: 'TabNine',
+    link: 'https://www.tabnine.com/',
+    icon: '/images/logo/tabnine.png',
+    info: 'TabNine 是最好的代码补全工具，软件开发人员的 AI 助手',
+  },
+  {
+    title: 'snippet generator',
+    link: 'https://snippet-generator.app/',
+    icon: '/images/logo/snippet-generator.png',
+    info: 'VS Code 代码片段在线生成工具',
+  },
+  {
+    title: 'Apifox',
+    link: 'https://www.apifox.cn/',
+    icon: '/images/logo/apifox.png',
+    info: 'API 文档、API 调试、API Mock、API 自动化测试',
   },
 ]
 </script>
-
-> 本页面收集了常用的工具、框架&库、网站等的连接 
-
-
 ## 构建工具
 
 <MyLink :links="generation"/>
+
+## Development
+
+<MyLink :links="development"/>
 
 ## 在线工具
 
