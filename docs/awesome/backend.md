@@ -74,6 +74,12 @@ const cms = [
     icon: '/images/logo/strapi.png',
     info: 'Strapi 是一种灵活的、开放源码的无头CMS',
   },
+  {
+    title: 'Ghost',
+    link: 'https://ghost.org/',
+    icon: '/images/logo/Ghost.png',
+    info: 'Ghost 是基于 Node.js 的开源博客系统，可以定义为 Wordpress 的 NodeJS 版本',
+  },
 ]
 
 const awesome = [
