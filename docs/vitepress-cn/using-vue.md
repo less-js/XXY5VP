@@ -19,7 +19,7 @@ It is also important to know that VitePress leverages Vue 3's compiler to automa
 
 在 VitePress 中，每个 Markdown 文件都被编译成`HTML`，然后作为一个 Vue 单文件组件进行处理。这意味着你可以在 Markdown 内使用任何 Vue 功能，包括动态模板，使用 Vue 组件，或通过添加`<script>`标签来实现任意的页内 Vue 组件逻辑。
 
-同样重要的是，VitePress 利用 Vue 3 的编译器来自动检测和优化 Markdown 的纯静态部分。静态内容被优化为单个占位符节点，并从页面的 JavaScript 有效载荷中删除。它们也会在客户端编译过程中被跳过。简而言之，你只需为任何特定页面的动态部分交付功能。
+同样重要的是，VitePress 利用 Vue 3 的编译器来自动检测和优化 Markdown 的纯静态部分。静态内容被优化为单个占位符节点，并从页面的 JavaScript 有效载荷中删除。它们也会在客户端 [hydration](https://blog.csdn.net/qq_41800366/article/details/117738916) 过程中被跳过。简而言之，你只需为任何特定页面的动态部分交付功能。
 
 ## 模板
 
@@ -147,7 +147,7 @@ export default {
 ```
 
 ::: warning IMPORTANT
-请确保自定义组件的名称包含一个连字符或使用`PascalCase`。否则，它将被视为内联元素，并被包裹在`<p>`标签内，这将导致编辑不匹配，因为`<p>`不允许将块状元素放在它里面。
+请确保自定义组件的名称包含一个连字符或使用`PascalCase`。否则，它将被视为内联元素，并被包裹在`<p>`标签内，这将导致 hydration 不匹配，因为`<p>`不允许将块状元素放在它里面。
 :::
 
 ## 在 header 标签中使用组件

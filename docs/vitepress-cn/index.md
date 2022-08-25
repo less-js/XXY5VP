@@ -44,7 +44,19 @@ Now, with Vite and Vue 3, it is time to rethink what a "Vue-powered static site 
 ::: details 原文
 Leverages Vue 3's improved template static analysis to stringify static content as much as possible. Static content is sent as string literals instead of JavaScript render function code – the JS payload is therefore much cheaper to parse, and hydration also becomes faster.
 :::
-利用 Vue 3 改进的模板静态分析能力，尽可能地将静态内容字符串化。静态内容以字符串文本形式发送，而非 JavaScript 渲染函数代码，因此，JS 有效载荷的解析成本更低，加载编译速度也开始变得更快。
+利用 Vue 3 改进的模板静态分析能力，尽可能地将静态内容字符串化。静态内容以字符串文本形式发送，而非 JavaScript 渲染函数代码，因此，JS 有效载荷的解析成本更低，hydration 也开始变得更快。
+
+::: tip 译者注
+不清楚 hydration 到底是什么意思，特意查了一下。
+
+网上查到的资料：[hydration 代表的是给对象填充数据的这一过程](https://blog.csdn.net/qq_41800366/article/details/117738916)。
+
+然后在 Vue 的官方英文版中也找到了[hydration](https://vuejs.org/guide/scaling-up/ssr.html#client-hydration)，对比[中文版](https://cn.vuejs.org/guide/scaling-up/ssr.html#client-hydration)发现官方翻译为“激活”的意思。
+
+在激活过程中，Vue 会创建一个与服务端完全相同的应用实例，然后将每个组件与它应该控制的 DOM 节点相匹配，并添加 DOM 事件监听器。
+
+同时在掘金上咨询了一下，有人给出的解释为：[这是同构渲染中的概念，在服务器上脱水，传到浏览器注水](https://juejin.cn/pin/7135598417903878157)
+:::
 
 ::: details 原文
 Note the optimization is applied while still allowing the user to freely mix Vue components inside markdown content – the compiler does the static/dynamic separation for you automatically and you never need to think about it.

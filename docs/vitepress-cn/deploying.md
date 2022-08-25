@@ -102,7 +102,7 @@ Don't enable options like Auto Minify for HTML code. It will remove comments fro
 :::
 
 ::: warning
-不要启用 HTML 代码的自动最小化等选项。它将从输出中删除对 Vue 有意义的注释。如果它们被删除，你可能会出现编译后不匹配的错误。
+不要启用 HTML 代码的自动最小化等选项。它将从输出中删除对 Vue 有意义的注释。如果它们被删除，你可能会出现 hydration 后不匹配的错误。
 :::
 
 ## GitHub Pages
