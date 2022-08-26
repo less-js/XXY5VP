@@ -96,6 +96,10 @@ export const tricks: DefaultTheme.Sidebar | undefined = {
           link: '/tricks/git-common-command.md',
         },
         {
+          text: 'Git commit 规范',
+          link: '/tricks/git-commit-standard.md',
+        },
+        {
           text: 'Git ignore',
           link: '/tricks/git-ignore.md',
         },
