@@ -175,4 +175,13 @@ head:
 
     # 远程 tag 的删除
     git push origin :refs/tags/<tagName>
+
+    # 拉取远程 tag
+    git fetch --tags
+
+    # 查看标签
+    git tag
+
+    # 精确拉取指定的某个版本
+    git fetch origin tag <版本号>
     ```
