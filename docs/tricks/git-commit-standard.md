@@ -11,7 +11,7 @@ head:
 
 # Git commit 规范约定
 
-git commit 格式
+## Git commit 格式
 
 ```sh
 <type>(<scope>): <subject>
