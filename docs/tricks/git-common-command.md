@@ -9,7 +9,7 @@ head:
       content: git命令,git
 ---
 
-# git 常用命令
+# Git 常用命令
 
 ## Base - 基础操作
 

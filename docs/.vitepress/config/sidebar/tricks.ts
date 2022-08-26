@@ -93,19 +93,23 @@ export const tricks: DefaultTheme.Sidebar | undefined = {
       items: [
         {
           text: 'Git常用命令',
-          link: '/tricks/git-common-command.md',
+          link: '/tricks/git-common-command',
         },
         {
           text: 'Git commit 规范',
-          link: '/tricks/git-commit-standard.md',
+          link: '/tricks/git-commit-standard',
+        },
+        {
+          text: 'Git版本管理',
+          link: '/tricks/git-version-naming-convention',
         },
         {
           text: 'Git ignore',
-          link: '/tricks/git-ignore.md',
+          link: '/tricks/git-ignore',
         },
         {
           text: 'GitHub Actions自动部署',
-          link: '/tricks/git-github-actions.md',
+          link: '/tricks/git-github-actions',
         },
       ],
     },
