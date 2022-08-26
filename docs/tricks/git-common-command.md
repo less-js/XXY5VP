@@ -20,17 +20,32 @@ head:
     git add 文件名
           　　      
     # 提交新文件到仓库中
-    git commit -m "first commit"    
+    git commit -m "first commit"
+
+    # 代码放到暂存区(未 commit 的代码)，适用于当需要切换分支，但又不想 push 的时候
+    git stash
+
+    # 还原 stash
+    git stash apply
+
+    # 清除最近一次 stash
+    git stash drop
+
+    # 还原并清除最近一次 stash 记录
+    git stash pop
+
+    # 查看暂存区列表
+    git stash list
+
+    # 清空所有 stash 记录
+    git stash clear
+
+    # 查看所有远程仓库
+    git remote -v
 
     # 添加远程仓库
-    git remote add origin 远程仓库　
-    　
-    # 列出已经存在的远程分支 
-    git remote 
-
-    # 列出详细信息，在每一个名字后面列出其 url
-    git remote -v　　　　　
-
+    git remote add origin <远程仓库>
+　　
     # 删除关联对应的远程仓库地址
     git remote rm main
 
@@ -40,24 +55,48 @@ head:
     # 强制提交
     git push -u origin main -f
 
-    # 克隆git仓库
-    git clone 远程仓库url                 
+    # 克隆远程仓库
+    git clone <远程仓库url>
+    　
+    # 列出已经存在的远程分支 
+    git remote 
+
+    # 列出详细信息，在每一个名字后面列出其 url
+    git remote -v　　　
+
+    # 修改仓库名
+    git remote rename <old_name> <new_name>
+
+    # 删除存储在本地仓库的文件, -f 表示强制删除
+    git rm <file name> -f           
     ```
 
 2. 分支
 
     ```sh
+    # 查看所有分支
+    git branch -a
+
+    # 查看所有远程分支
+    git branch -r
+
+    # 切换分支
+    git checkout <分支名>     
+
     # 创建并切换此分支
-    git checkout -b dev        
+    git checkout -b dev   
 
     # 创建分支
     git branch dev             
+
+    # 从远程拉取分支并在本地创建新分支
+    git fetch origin <远程分支名>:<本地新建分支名>
 
     # 把本地分支 push 到远程 dev 分支
     git push origin dev           
 
     # 从当前分支切换到指定分支
-    git checkout dev            
+    git checkout dev
 
     # 查看所有分支，* 代表当前所在分支 
     git branch　　　　　　       
@@ -66,7 +105,10 @@ head:
     git branch -d dev　　
 
     # 重命名当前分支为 master
-    git branch -m master　　 
+    git branch -m master
+
+    # 修改指定分支名
+    git branch -m <old_name> <new_name>
 
     # 合并指定分支到当前分支
     git merge dev          
@@ -75,7 +117,10 @@ head:
     git merge dev master   
 
     # 普通模式合并，合并后的历史有分支，能看出来曾经做过合并
-    git merge --no-ff -m “merge” dev    
+    git merge --no-ff -m “merge” dev   
+
+    # 回滚合并前
+    git merge ---abort 
 
     # 查看分支提交及文件状态
     git status              
@@ -90,7 +135,7 @@ head:
     git push origin:dev　　　
     　
     # 回退提交
-    git  push origin  HEAD --force  
+    git push origin  HEAD --force  
 
     # 回退到此 commit id  本地撤销  远程不受影响
     git reset --hard 8c6ffy1   
