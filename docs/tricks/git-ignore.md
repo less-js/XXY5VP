@@ -26,3 +26,7 @@ demo.html
 // 不过滤js文件
 !*.js 
 ```
+
+::: tip
+更多细节请参考[Git 文档](https://git-scm.com/docs/gitignore)
+:::
