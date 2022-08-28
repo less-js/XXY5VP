@@ -114,7 +114,7 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
         },
         {
           text: '$fetch',
-          link: '/nuxt3/api-$fetch',
+          link: '/nuxt3/api-fetch',
         },
         {
           text: 'useNuxtApp',
