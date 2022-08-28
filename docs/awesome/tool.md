@@ -110,6 +110,12 @@ const development = [
     icon: '/images/logo/apifox.png',
     info: 'API 文档、API 调试、API Mock、API 自动化测试',
   },
+  {
+    title: 'DevToys',
+    link: 'https://www.devtoys.app/',
+    icon: '/images/logo/DevToys.png',
+    info: '提供格式化JSON、比较文本和测试RegExp、图片转base64等等功能',
+  },
 ]
 </script>
 ## 构建工具
