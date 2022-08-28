@@ -98,4 +98,19 @@
     top: -72px;
   }
 }
+@media (max-width: 640px) {
+  .home-main {
+    .miit {
+      display: block;
+      text-align: center;
+      width: auto;
+
+      a {
+        display: block;
+        width: 360px;
+        line-height: 18px;
+      }
+    }
+  }
+}
 </style>
