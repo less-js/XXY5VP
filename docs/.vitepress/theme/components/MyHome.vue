@@ -88,7 +88,7 @@
     font-size: 12px;
 
     a {
-      margin: 0 5px;
+      padding: 0 10px;
       color: #73767a;
     }
   }
@@ -103,11 +103,9 @@
     .miit {
       display: block;
       text-align: center;
-      width: auto;
 
       a {
         display: block;
-        width: 360px;
         line-height: 18px;
       }
     }
