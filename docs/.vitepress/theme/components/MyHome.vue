@@ -7,6 +7,13 @@
       <a href="https://beian.miit.gov.cn" target="_blank" rel="noreferrer">
         浙ICP备2021009567号-2
       </a>
+      <a
+        href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33038202004525"
+        target="_blank"
+        rel="noreferrer"
+      >
+        公安备案号 33038202004525
+      </a>
     </p>
   </main>
 </template>
@@ -74,11 +81,14 @@
 
   .miit {
     position: absolute;
-    right: 5px;
-    bottom: 5px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     font-size: 12px;
 
     a {
+      margin: 0 5px;
       color: #73767a;
     }
   }
