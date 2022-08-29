@@ -24,14 +24,14 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'Components',
           link: '/nuxt3/directory-components',
         },
-        // {
-        //   text: 'Composables',
-        //   link: '/nuxt3/directory-composables',
-        // },
-        // {
-        //   text: 'Content',
-        //   link: '/nuxt3/directory-content',
-        // },
+        {
+          text: 'Composables',
+          link: '/nuxt3/directory-composables',
+        },
+        {
+          text: 'Content',
+          link: '/nuxt3/directory-content',
+        },
         // {
         //   text: 'Layouts',
         //   link: '/nuxt3/directory-layouts',

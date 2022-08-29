@@ -12,3 +12,6 @@ head:
 # Nuxt3 pages 页面目录
 
 Documentation coming soon...
+
+
+## Catch-all Route 通用路由
