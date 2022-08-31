@@ -32,17 +32,17 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'Content',
           link: '/nuxt3/directory-content',
         },
-        // {
-        //   text: 'Layouts',
-        //   link: '/nuxt3/directory-layouts',
-        // },
+        {
+          text: 'Layouts',
+          link: '/nuxt3/directory-layouts',
+        },
+        {
+          text: 'Pages',
+          link: '/nuxt3/directory-pages',
+        },
         // {
         //   text: 'Middleware',
         //   link: '/nuxt3/directory-middleware',
-        // },
-        // {
-        //   text: 'Pages',
-        //   link: '/nuxt3/directory-pages',
         // },
         // {
         //   text: 'Plugins',

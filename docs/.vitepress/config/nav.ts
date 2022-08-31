@@ -10,7 +10,7 @@ export const nav: DefaultTheme.NavItem[] = [
     link: '/vitepress-cn/',
   },
   {
-    text: 'Nuxt 3',
+    text: 'Nuxt 3中文文档',
     link: '/nuxt3/introduction-install',
   },
   {
