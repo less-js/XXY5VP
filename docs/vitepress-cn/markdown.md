@@ -159,6 +159,8 @@ This is a details block.
 ```
 
 **显示**
+
+::: info
 This is an info box.
 :::
 ::: tip

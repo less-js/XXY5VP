@@ -21,6 +21,10 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           link: '/nuxt3/directory-guide',
         },
         {
+          text: 'app.vue',
+          link: '/nuxt3/directory-app-vue',
+        },
+        {
           text: 'Components',
           link: '/nuxt3/directory-components',
         },
@@ -51,10 +55,6 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
         // {
         //   text: 'Server',
         //   link: '/nuxt3/directory-server',
-        // },
-        // {
-        //   text: 'app.vue',
-        //   link: '/nuxt3/directory-app-vue',
         // },
       ],
     },
