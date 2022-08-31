@@ -9,7 +9,7 @@ head:
       content: nuxt3,nuxt3安装
 ---
 
-# Nuxt 3 安装
+# Nuxt3 安装
 
 Nuxt 3是一个混合型 Vue 框架。使用 Vue 3 构建应用程序，体验混合渲染、强大的数据获取和新功能。Nuxt 3 是一个开源的框架，使 Web 开发变得简单而强大。
 

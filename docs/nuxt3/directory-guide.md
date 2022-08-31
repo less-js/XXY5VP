@@ -9,7 +9,7 @@ head:
       content: nuxt3,nuxt3目录
 ---
 
-# Nuxt 3 目录介绍
+# Nuxt3 目录介绍
 
 Nuxt 是一个约定优先的 web 开发框架，部分功能是基于目录结构的。
 

@@ -9,6 +9,6 @@ head:
       content: Nuxt3,Nuxt3 server,Nuxt3服务端
 ---
 
-# Nuxt3 server 服务端目录
+# Nuxt3 server - 服务端目录
 
 Documentation coming soon...

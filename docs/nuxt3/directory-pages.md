@@ -9,7 +9,7 @@ head:
       content: Nuxt3，Nuxt3 pages,Nuxt3页面
 ---
 
-# Nuxt3 pages 页面目录
+# Nuxt3 pages - 页面目录
 
 Nuxt 提供了一种基于文件的路由，可以使用[Vue Router](https://router.vuejs.org/)在 web 应用程序中创建路由。
 

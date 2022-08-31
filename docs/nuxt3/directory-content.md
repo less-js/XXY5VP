@@ -9,7 +9,7 @@ head:
       content: Nuxt3 content
 ---
 
-# Nuxt3 content 内容目录
+# Nuxt3 content - 内容目录
 
 Nuxt Content 模块读取项目中的`content`目录，并解析`.md`、`.yml`、`.csv`和`.json`文件，为应用程序创建一个基于文件的 CMS。
 

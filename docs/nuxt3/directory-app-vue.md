@@ -9,9 +9,9 @@ head:
       content: Nuxt3,Nuxt3 app.vue
 ---
 
-# Nuxt3 app.vue 入口组件
+# Nuxt3 app.vue - 入口组件
 
-`app.vue`文件是你的 Nuxt3 应用程序的主要组件。
+`app.vue`文件是 Nuxt3 应用程序的主要组件。
 
 ## 最小应用
 
@@ -47,4 +47,4 @@ head:
 记住`app.vue`充当 Nuxt 应用程序的主要组件。添加到其中的任何内容（JS和CSS）都将是全局的，并包含在每个页面中。
 :::
 
-如果需要自定义页面布局的话,请查看[`layouts`目录](/nuxt3/directory-layouts)。
+如果需要自定义页面布局的话，请查看[`layouts`目录](/nuxt3/directory-layouts)。
