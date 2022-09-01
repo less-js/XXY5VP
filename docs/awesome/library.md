@@ -42,6 +42,12 @@ const frame = [
     info: '基于 Vue.js 的服务端渲染应用框架',
   },
   {
+    title: 'VitePress',
+    link: 'https://vitepress.vuejs.org/',
+    icon: '/images/logo/empty.svg',
+    info: '基于Vite&Vue的静态网站处理程序。',
+  },
+  {
     title: 'React',
     link: 'https://reactjs.org/',
     icon: '/images/logo/react.svg',
