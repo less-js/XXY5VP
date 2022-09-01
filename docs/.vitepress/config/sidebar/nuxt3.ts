@@ -21,7 +21,7 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           link: '/nuxt3/directory-guide',
         },
         {
-          text: 'app.vue',
+          text: 'App.vue',
           link: '/nuxt3/directory-app-vue',
         },
         {
@@ -58,44 +58,36 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
         },
       ],
     },
-    // {
-    //   text: '配置',
-    //   collapsible: true,
-    //   items: [
-    //     {
-    //       text: 'app.config.ts',
-    //       link: '/nuxt3/configuration-app-config',
-    //     },
-    //     {
-    //       text: 'nuxt.config.ts',
-    //       link: '/nuxt3/configuration-nuxt-config',
-    //     },
-    //     {
-    //       text: '.nuxtignore',
-    //       link: '/nuxt3/configuration-nuxtignore',
-    //     },
-    //   ],
-    // },
+    {
+      text: 'Component',
+      collapsed: true,
+      items: [
+        {
+          text: '<NuxtLayout>',
+          link: '/nuxt3/component-nuxt-layout',
+        },
+        // {
+        //   text: '<NuxtPage>',
+        //   link: '/nuxt3/component-nuxt-page',
+        // },
+        // {
+        //   text: '<NuxtLink>',
+        //   link: '/nuxt3/component-nuxt-link',
+        // },
+        // {
+        //   text: '<NuxtLoadingIndicator>',
+        //   link: '/nuxt3/component-loading-indicator',
+        // },
+        // {
+        //   text: '<NuxtLoadingIndicator>',
+        //   link: '/nuxt3/component-nuxt-error-boundary',
+        // },
+      ],
+    },
     // {
     //   text: 'API',
     //   collapsible: true,
     //   items: [
-    //     {
-    //       text: '<NuxtLayout>',
-    //       link: '/nuxt3/api-nuxt-layout',
-    //     },
-    //     {
-    //       text: '<NuxtPage>',
-    //       link: '/nuxt3/api-nuxt-page',
-    //     },
-    //     {
-    //       text: '<NuxtLink>',
-    //       link: '/nuxt3/api-nuxt-link',
-    //     },
-    //     {
-    //       text: '<NuxtLoadingIndicator>',
-    //       link: '/nuxt3/api-loading-indicator',
-    //     },
     //     {
     //       text: 'useAsyncData',
     //       link: '/nuxt3/api-use-async-data',
@@ -142,19 +134,37 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
     //     },
     //     {
     //       text: 'abortNavigation',
-    //       link: '/nuxt3/api-abort-navigation'
+    //       link: '/nuxt3/api-abort-navigation',
     //     },
     //     {
     //       text: 'addRouteMiddleware',
-    //       link: '/nuxt3/api-add-route-middleware'
+    //       link: '/nuxt3/api-add-route-middleware',
     //     },
     //     {
     //       text: 'definePageMeta',
-    //       link: '/nuxt3/api-define-page-meta'
+    //       link: '/nuxt3/api-define-page-meta',
     //     },
     //     {
     //       text: 'navigateTo',
-    //       link: '/nuxt3/api-navigate-to'
+    //       link: '/nuxt3/api-navigate-to',
+    //     },
+    //   ],
+    // },
+    // {
+    //   text: '配置',
+    //   collapsible: true,
+    //   items: [
+    //     {
+    //       text: 'app.config.ts',
+    //       link: '/nuxt3/configuration-app-config',
+    //     },
+    //     {
+    //       text: 'nuxt.config.ts',
+    //       link: '/nuxt3/configuration-nuxt-config',
+    //     },
+    //     {
+    //       text: '.nuxtignore',
+    //       link: '/nuxt3/configuration-nuxtignore',
     //     },
     //   ],
     // },
