@@ -48,14 +48,14 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'Middleware',
           link: '/nuxt3/directory-middleware',
         },
-        // {
-        //   text: 'Plugins',
-        //   link: '/nuxt3/directory-plugins',
-        // },
-        // {
-        //   text: 'Server',
-        //   link: '/nuxt3/directory-server',
-        // },
+        {
+          text: 'Plugins',
+          link: '/nuxt3/directory-plugins',
+        },
+        {
+          text: 'Server',
+          link: '/nuxt3/directory-server',
+        },
       ],
     },
     // {
