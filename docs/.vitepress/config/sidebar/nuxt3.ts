@@ -44,10 +44,10 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'Pages',
           link: '/nuxt3/directory-pages',
         },
-        // {
-        //   text: 'Middleware',
-        //   link: '/nuxt3/directory-middleware',
-        // },
+        {
+          text: 'Middleware',
+          link: '/nuxt3/directory-middleware',
+        },
         // {
         //   text: 'Plugins',
         //   link: '/nuxt3/directory-plugins',
@@ -67,12 +67,12 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
     //       link: '/nuxt3/configuration-app-config',
     //     },
     //     {
-    //       text: '.nuxtignore',
-    //       link: '/nuxt3/configuration-nuxtignore',
-    //     },
-    //     {
     //       text: 'nuxt.config.ts',
     //       link: '/nuxt3/configuration-nuxt-config',
+    //     },
+    //     {
+    //       text: '.nuxtignore',
+    //       link: '/nuxt3/configuration-nuxtignore',
     //     },
     //   ],
     // },
