@@ -262,7 +262,7 @@ console.log(route.meta.title) // My home page
 
 如果使用嵌套路由，所有这些路由的页面元数据将被合并到一个对象中。有关路由元的更多信息，请参阅[vue router文档](https://router.vuejs.org/guide/advanced/meta.html)。
 
-和`defineEmits`或`defineProps`（见[Vue文档](https://vuejs.org/api/sfc-script-setup.html#defineprops-defineemits)）非常类似，`definePageMeta`是一个编译器宏。它将被编译掉，所以你不能在组件中引用它。相反，传递给它的元数据将被从组件中提升出来。因此，页面元对象不能引用组件（或组件上定义的值）。然而，它可以引用导入的绑定。
+和`defineEmits`或`defineProps`（见[Vue文档](https://vuejs.org/api/sfc-script-setup.html#defineprops-defineemits)）非常类似，`definePageMeta`是一个编译器宏。它会将被编译掉，所以你不能在组件中引用它。相反，传递给它的元数据将被从组件中提升出来。因此，页面元对象不能引用组件（或组件上定义的值）。然而，它可以引用导入的绑定。
 
 ```vue
 <script setup>

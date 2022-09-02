@@ -1,15 +1,15 @@
 ---
-title: Nuxt3 ＜NuxtLayout/＞
-description: Nuxt 3 安装
+title: Nuxt3 ＜NuxtLayout＞组件
+description: Nuxt3可以使用`<NuxtLayout />`组件来激活`app.vue`或`error.vue`的默认布局,甚至是`pages`目录下的页面组件的默认布局。
 tags: 
-  - nuxt3,nuxt3安装
+  - nuxt3,＜NuxtLayout>
 head:
   - - meta
     - name: keywords
-      content: nuxt3,nuxt3安装
+      content: nuxt3,＜NuxtLayout>
 ---
 
-# `＜NuxtLayout/＞`
+# `＜NuxtLayout＞`
 
 可以使用`<NuxtLayout />`组件来激活`app.vue`或`error.vue`的默认布局。
 
