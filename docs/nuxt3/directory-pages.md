@@ -339,7 +339,7 @@ export {}
 </template>
 ```
 
-了解更多关于[`<NuxtLink>`](/nuxt3/api-nuxt-link)使用。
+了解更多关于[`<NuxtLink>`](/nuxt3/component-nuxt-link)使用。
 
 ## 路由选项
 
