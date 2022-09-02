@@ -66,14 +66,14 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: '<NuxtLayout>',
           link: '/nuxt3/component-nuxt-layout',
         },
-        // {
-        //   text: '<NuxtPage>',
-        //   link: '/nuxt3/component-nuxt-page',
-        // },
-        // {
-        //   text: '<NuxtLink>',
-        //   link: '/nuxt3/component-nuxt-link',
-        // },
+        {
+          text: '<NuxtPage>',
+          link: '/nuxt3/component-nuxt-page',
+        },
+        {
+          text: '<NuxtLink>',
+          link: '/nuxt3/component-nuxt-link',
+        },
         // {
         //   text: '<NuxtLoadingIndicator>',
         //   link: '/nuxt3/component-loading-indicator',
