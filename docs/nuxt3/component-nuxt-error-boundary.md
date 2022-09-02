@@ -1,15 +1,15 @@
 ---
-title: Nuxt3 <NuxtLoadingIndicator>错误处理组件
+title: Nuxt3 <NuxtErrorBoundary>错误处理组件
 description: Nuxt提供了＜NuxtErrorBoundary＞组件，使用Vue的onErrorCaptured钩子处理默认插槽中发生的客户端错误。
 tags: 
-  - nuxt3,<NuxtLoadingIndicator>,Nuxt3组件,Nuxt3错误处理
+  - nuxt3,<NuxtErrorBoundary>,Nuxt3组件,Nuxt3错误处理
 head:
   - - meta
     - name: keywords
-      content: nuxt3,<NuxtLoadingIndicator>,Nuxt3错误处理,Nuxt3组件
+      content: nuxt3,<NuxtErrorBoundary>,Nuxt3错误处理,Nuxt3组件
 ---
 
-# `<NuxtLoadingIndicator>` - 错误处理组件
+# `<NuxtErrorBoundary>` - 错误处理组件
 
 Nuxt提供了`＜NuxtErrorBoundary＞`组件，使用 Vue 的[`onErrorCaptured`](https://vuejs.org/api/composition-api-lifecycle.html#onerrorcaptured)钩子处理默认插槽中发生的客户端错误。
 
