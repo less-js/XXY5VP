@@ -9,7 +9,7 @@ head:
       content: Nuxt3,Nuxt3 composables
 ---
 
-# Nuxt3 composables - 组合API目录
+# Composables - 组合API目录
 
 Nuxt3 可以将`Vue composables`自动导入到你的应用程序中!
 

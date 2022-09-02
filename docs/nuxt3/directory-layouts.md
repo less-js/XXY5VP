@@ -9,7 +9,7 @@ head:
       content: Nuxt3 layouts,Nuxt3,Nuxt3布局
 ---
 
-# Nuxt3 layouts - 布局目录
+# Layouts - 布局目录
 
 Nuxt提供了一个可定制的布局框架，可以在整个应用程序中使用，是提取常见的 UI 或代码模式为可重用的布局组件的理想选择。
 

@@ -9,7 +9,7 @@ head:
       content: Nuxt3,Nuxt3组件,Nuxt3 components
 ---
 
-# Nuxt3 components - 组件目录
+# Components - 组件目录
 
 `components`目录是放置所有 Vue 组件的地方，且可以将这些组件导入页面或其他组件。
 

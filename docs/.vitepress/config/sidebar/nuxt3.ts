@@ -89,24 +89,24 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
       collapsible: true,
       items: [
         {
+          text: '$fetch',
+          link: '/nuxt3/api-fetch',
+        },
+        {
           text: 'useAsyncData',
           link: '/nuxt3/api-use-async-data',
         },
-        // {
-        //   text: 'useFetch',
-        //   link: '/nuxt3/api-use-fetch',
-        // },
         // {
         //   text: 'useLazyAsyncData',
         //   link: '/nuxt3/api-use-lazy-async-data',
         // },
         // {
-        //   text: 'useLazyFetch',
-        //   link: '/nuxt3/api-use-lazy-fetch',
+        //   text: 'useFetch',
+        //   link: '/nuxt3/api-use-fetch',
         // },
         // {
-        //   text: '$fetch',
-        //   link: '/nuxt3/api-fetch',
+        //   text: 'useLazyFetch',
+        //   link: '/nuxt3/api-use-lazy-fetch',
         // },
         // {
         //   text: 'useNuxtApp',

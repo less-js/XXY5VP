@@ -10,7 +10,7 @@ head:
       content: Nuxt3，Nuxt3 middleware,Nuxt3中间件
 ---
 
-# Nuxt3 middleware - 中间件目录
+# Middleware - 中间件目录
 
 Nuxt 提供了一个可定制的路由中间件框架，可以在整个应用程序中使用，非常适合在导航到某个路由之前提取要运行的代码。
 

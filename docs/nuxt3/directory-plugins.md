@@ -9,7 +9,7 @@ head:
       content: Nuxt3,Nuxt3 plugins,Nuxt3插件
 ---
 
-# Nuxt3 plugins - 插件目录
+# Plugins - 插件目录
 
 Nuxt 会自动读取`plugins`目录中的文件并加载它们。可以在文件名中使用`.server`或`.client`后缀（如：`focus.client.ts`），以便只在服务器或客户端加载一个插件。
 

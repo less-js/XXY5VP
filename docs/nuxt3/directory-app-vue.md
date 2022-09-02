@@ -9,7 +9,7 @@ head:
       content: Nuxt3,Nuxt3 app.vue
 ---
 
-# Nuxt3 app.vue - 入口组件
+# App.vue - 入口组件
 
 `app.vue`文件是 Nuxt3 应用程序的主要组件。
 

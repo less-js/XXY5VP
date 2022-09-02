@@ -9,7 +9,7 @@ head:
       content: Nuxt3,Nuxt3 server,Nuxt3服务端
 ---
 
-# Nuxt3 server - 服务端目录
+# Server - 服务端目录
 
 Nuxt会自动扫描`~/server/api`、`~/server/routes`和`~/server/middleware`目录下的文件，并根据这些目录里面的文件名自动创建支持 HMR 的API。
 
