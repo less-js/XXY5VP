@@ -2,11 +2,11 @@
 title: Nuxt3 useAsyncData异步请求数据
 description: 在nuxt3的`pages`、`components`和`plugins`中可以使用useAsyncData来来异步请求数据。
 tags: 
-  - Nuxt3,Nuxt3 plugins,Nuxt3插件
+  - Nuxt3,Nuxt3请求数据,useAsyncData
 head:
   - - meta
     - name: keywords
-      content: Nuxt3,Nuxt3 plugins,Nuxt3插件
+      content: Nuxt3,Nuxt3请求数据,useAsyncData
 ---
 
 # `useAsyncData` 

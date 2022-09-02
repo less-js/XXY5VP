@@ -96,10 +96,10 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'useAsyncData',
           link: '/nuxt3/api-use-async-data',
         },
-        // {
-        //   text: 'useLazyAsyncData',
-        //   link: '/nuxt3/api-use-lazy-async-data',
-        // },
+        {
+          text: 'useLazyAsyncData',
+          link: '/nuxt3/api-use-lazy-async-data',
+        },
         // {
         //   text: 'useFetch',
         //   link: '/nuxt3/api-use-fetch',
