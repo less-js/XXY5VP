@@ -100,14 +100,14 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'useLazyAsyncData',
           link: '/nuxt3/api-use-lazy-async-data',
         },
-        // {
-        //   text: 'useFetch',
-        //   link: '/nuxt3/api-use-fetch',
-        // },
-        // {
-        //   text: 'useLazyFetch',
-        //   link: '/nuxt3/api-use-lazy-fetch',
-        // },
+        {
+          text: 'useFetch',
+          link: '/nuxt3/api-use-fetch',
+        },
+        {
+          text: 'useLazyFetch',
+          link: '/nuxt3/api-use-lazy-fetch',
+        },
         // {
         //   text: 'useNuxtApp',
         //   link: '/nuxt3/api-use-nuxt-app',
