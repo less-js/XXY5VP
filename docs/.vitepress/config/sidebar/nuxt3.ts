@@ -79,7 +79,7 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
         //   link: '/nuxt3/component-loading-indicator',
         // },
         // {
-        //   text: '<NuxtLoadingIndicator>',
+        //   text: '<NuxtErrorBoundary>',
         //   link: '/nuxt3/component-nuxt-error-boundary',
         // },
       ],

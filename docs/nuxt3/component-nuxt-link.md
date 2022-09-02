@@ -1,16 +1,16 @@
 ---
-title: Nuxt3 <NuxtLink>组件
-description: Nuxt 提供＜NuxtLink＞组件来处理应用程序中的任何类型的链接。是 Vue Router 的`＜RouterLink＞`组件和 HTML 的`＜a＞`标签的直接替代品。它智能地确定链接是内部的还是外部的。
+title: Nuxt3 <NuxtLink>链接组件
+description: Nuxt 提供＜NuxtLink＞组件来处理应用程序中的任何类型的链接。＜NuxtLink＞是 Vue Router 的＜RouterLink＞组件和 HTML 的＜a＞标签的直接替代品。
 
 tags: 
-  - nuxt3,<NuxtLink>
+  - nuxt3,<NuxtLink>,nuxt链接组件,Nuxt3组件
 head:
   - - meta
     - name: keywords
-      content: nuxt3,<NuxtLink>
+      content: nuxt3,<NuxtLink>,nuxt链接组件,Nuxt3组件
 ---
 
-# `<NuxtLink>`
+# `<NuxtLink>` - 链接组件
 
 Nuxt 提供`＜NuxtLink＞`组件来处理应用程序中的任何类型的链接。
 
