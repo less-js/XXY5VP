@@ -13,9 +13,9 @@ head:
 
 默认情况下，`useFetch`会阻止导航，直到解析其异步处理程序。
 
-`useLazyFetch`是`useFetch`的封装，通过将`lazy`选项设置为`true`，也就是它不会阻塞路由导航。
+`useLazyFetch`是，通过将`useFetch`的`lazy`选项设置为`true`的封装，也就是它不会阻塞路由导航。
 
-> 详情阅读：[useFetch](/nuxt3/api-use-fetch) API 文档
+> 详情阅读：[useFetch](/nuxt3/composable-use-fetch) API 文档
 
 ## 示例
 

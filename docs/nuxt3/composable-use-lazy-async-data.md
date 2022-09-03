@@ -17,7 +17,7 @@ head:
 
 这意味着需要处理`data`为`null`的情况（或者通过`default`选项给`data`设置一个默认值）。
 
-> 详情阅读：[useAsyncData](/nuxt3/api-use-async-data) API 文档
+> 详情阅读：[useAsyncData](/nuxt3/composable-use-async-data) API 文档
 
 示例：
 

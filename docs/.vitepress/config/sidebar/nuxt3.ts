@@ -85,72 +85,86 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
       ],
     },
     {
-      text: 'API',
+      text: 'Composables',
+      collapsible: true,
+      items: [
+        {
+          text: 'useAsyncData',
+          link: '/nuxt3/composable-use-async-data',
+        },
+        {
+          text: 'useLazyAsyncData',
+          link: '/nuxt3/composable-use-lazy-async-data',
+        },
+        {
+          text: 'useFetch',
+          link: '/nuxt3/composable-use-fetch',
+        },
+        {
+          text: 'useLazyFetch',
+          link: '/nuxt3/composable-use-lazy-fetch',
+        },
+        // {
+        //   text: 'useNuxtApp',
+        //   link: '/nuxt3/composable-use-nuxt-app',
+        // },
+        // {
+        //   text: 'useRoute',
+        //   link: '/nuxt3/composable-use-route',
+        // },
+        // {
+        //   text: 'useRouter',
+        //   link: '/nuxt3/composable-use-router',
+        // },
+        // {
+        //   text: 'useState',
+        //   link: '/nuxt3/composable-use-state',
+        // },
+        // {
+        //   text: 'useHead',
+        //   link: '/nuxt3/composable-use-head',
+        // },
+        // {
+        //   text: 'useCookie',
+        //   link: '/nuxt3/composable-use-cookie',
+        // },
+        // {
+        //   text: 'useRequestEvent',
+        //   link: '/nuxt3/composable-use-request-event',
+        // },
+        // {
+        //   text: 'useRequestHeaders',
+        //   link: '/nuxt3/composable-use-request-headers',
+        // },
+      ],
+    },
+    {
+      text: 'Utils',
       collapsible: true,
       items: [
         {
           text: '$fetch',
-          link: '/nuxt3/api-fetch',
+          link: '/nuxt3/utils-fetch',
         },
-        {
-          text: 'useAsyncData',
-          link: '/nuxt3/api-use-async-data',
-        },
-        {
-          text: 'useLazyAsyncData',
-          link: '/nuxt3/api-use-lazy-async-data',
-        },
-        {
-          text: 'useFetch',
-          link: '/nuxt3/api-use-fetch',
-        },
-        {
-          text: 'useLazyFetch',
-          link: '/nuxt3/api-use-lazy-fetch',
-        },
-        // {
-        //   text: 'useNuxtApp',
-        //   link: '/nuxt3/api-use-nuxt-app',
-        // },
-        // {
-        //   text: 'useRoute',
-        //   link: '/nuxt3/api-use-route',
-        // },
-        // {
-        //   text: 'useRouter',
-        //   link: '/nuxt3/api-use-router',
-        // },
-        // {
-        //   text: 'useState',
-        //   link: '/nuxt3/api-use-state',
-        // },
-        // {
-        //   text: 'useHead',
-        //   link: '/nuxt3/api-use-head',
-        // },
-        // {
-        //   text: 'useCookie',
-        //   link: '/nuxt3/api-use-cookie',
-        // },
         // {
         //   text: 'abortNavigation',
-        //   link: '/nuxt3/api-abort-navigation',
+        //   link: '/nuxt3/utils-abort-navigation',
         // },
         // {
         //   text: 'addRouteMiddleware',
-        //   link: '/nuxt3/api-add-route-middleware',
+        //   link: '/nuxt3/utils-add-route-middleware',
         // },
         // {
         //   text: 'defineNuxtRouteMiddleware',
-        //   link: '/nuxt3/api-define-nuxt-route-middleware',
+        //   link: '/nuxt3/utils-define-nuxt-route-middleware',
         // },
         // {
         //   text: 'definePageMeta',
-        //   link: '/nuxt3/api-define-page-meta',
+        //   link: '/nuxt3/utils-define-page-meta',
         // },
         // {
         //   text: 'navigateTo',
-        //   link: '/nuxt3/api-navigate-to',
+        //   link: '/nuxt3/utils-navigate-to',
         // },
       ],
     },
@@ -173,6 +187,27 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
     //   ],
     // },
     // {
+    //   text: 'Commands',
+    //   items: [
+    //     {
+    //       text: 'nuxi init',
+    //       link: '/nuxt3/command-nuxi-init',
+    //     },
+    //     {
+    //       text: 'nuxi add',
+    //       link: '/nuxt3/command-nuxi-add',
+    //     },
+    //     {
+    //       text: 'nuxi preview',
+    //       link: '/nuxt3/command-nuxi-preview',
+    //     },
+    //     {
+    //       text: 'nuxi upgrade',
+    //       link: '/nuxt3/command-nuxi-upgrade',
+    //     },
+    //   ],
+    // },
+    // {
     //   text: '部署',
     //   collapsible: true,
     //   items: [
@@ -181,11 +216,11 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
     //       link: '/nuxt3/deploy-nodejs-server',
     //     },
     //     {
-    //       text: '.nuxtignore',
+    //       text: 'Static Hosting',
     //       link: '/nuxt3/deploy-static-hosting',
     //     },
     //     {
-    //       text: 'nuxt.config.ts',
+    //       text: 'Deployment Presets',
     //       link: '/nuxt3/deploy-deployment-presets',
     //     },
     //   ],

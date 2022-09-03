@@ -57,9 +57,9 @@ Nuxt 提供了两个全局可用的辅助方法，可以直接从中间件返回
 
 - return abortNavigation(error) - 以错误拒绝当前导航。
 
-> 阅读[`navigateTo()`](/nuxt3/api-navigate-to)API文档
+> 阅读[`navigateTo()`](/nuxt3/utils-navigate-to)API文档
 
-> 阅读[`abortNavigation()`](/nuxt3/api-abort-navigation)API文档
+> 阅读[`abortNavigation()`](/nuxt3/utils-abort-navigation)API文档
 
 ::: tip
 Nuxt 建议使用上面的辅助方法来执行重定向或停止导航。`vue router`文档中描述的其他可能的返回值可能会起作用，但将来可能会出现重大变化。

@@ -11,7 +11,7 @@ head:
 
 # `useFetch`
 
-`useFetch`是[`useAsyncData`](/nuxt3/api-use-async-data)和[`$fetch`](/nuxt3/api-fetch)的封装。它根据 URL 和 fetch 选项自动生成 key，根据服务器路由为请求 URL 提供类型提示，并推断 API 响应类型。
+`useFetch`是[`useAsyncData`](/nuxt3/composable-use-async-data)和[`$fetch`](/nuxt3/utils-fetch)的封装。它根据 URL 和 fetch 选项自动生成 key，根据服务器路由为请求 URL 提供类型提示，并推断 API 响应类型。
 
 ## 类型
 
@@ -49,14 +49,14 @@ type AsyncData<DataT> = {
 
 - Url: 请求地址
 
-- Options（扩展[`unjs/ohmyfetch`](https://github.com/unjs/ohmyfetch)和[`AsyncDataOptions`](/nuxt3/api-use-async-data#参数)）
+- Options（扩展[`unjs/ohmyfetch`](https://github.com/unjs/ohmyfetch)和[`AsyncDataOptions`](/nuxt3/composable-use-async-data#参数)）
     - method: 请求方法
     - params: Query 参数
     - body: 请求体 - 自动字符串化（如果传递的是一个对象）
     - headers: 请求头
     - baseURL: 请求 Base URL
 
-- Options (下列参数使用方法和[`useAsyncData`](/nuxt3/api-use-async-data#参数)的参数一样)
+- Options (下列参数使用方法和[`useAsyncData`](/nuxt3/composable-use-async-data#参数)的参数一样)
     - key
     - lazy 
     - server 
@@ -73,7 +73,7 @@ type AsyncData<DataT> = {
 
 ## 返回值
 
-同[`useAsyncData`返回值](/nuxt3/api-use-async-data#返回值)
+同[`useAsyncData`返回值](/nuxt3/composable-use-async-data#返回值)
 
 ## 示例
 
