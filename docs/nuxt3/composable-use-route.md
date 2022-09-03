@@ -11,7 +11,7 @@ head:
 
 # `useRoute` - 返回当前路由地址
 
-`useRoute`返回当前路由地址，必须在`<script setup>`、`setup()`、插件或路由中间件中调用。
+`useRoute`返回当前路由地址，必须在`setup()`、插件或路由中间件中调用。
 
 在 Vue 中可以使用`$route`访问路由。
 

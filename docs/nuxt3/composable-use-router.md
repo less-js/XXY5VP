@@ -11,7 +11,7 @@ head:
 
 # `useRouter` - 返回路由实例
 
-`useRouter`返回路由实例，必须在`<script setup>`、`setup()`、插件或路由中间件中调用。
+`useRouter`返回路由实例，必须在`setup()`、插件或路由中间件中调用。
 
 在 Vue 中使用`$router`访问路由实例。
 

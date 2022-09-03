@@ -108,18 +108,18 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'useNuxtApp',
           link: '/nuxt3/composable-use-nuxt-app',
         },
-        // {
-        //   text: 'useRoute',
-        //   link: '/nuxt3/composable-use-route',
-        // },
-        // {
-        //   text: 'useRouter',
-        //   link: '/nuxt3/composable-use-router',
-        // },
-        // {
-        //   text: 'useState',
-        //   link: '/nuxt3/composable-use-state',
-        // },
+        {
+          text: 'useRoute',
+          link: '/nuxt3/composable-use-route',
+        },
+        {
+          text: 'useRouter',
+          link: '/nuxt3/composable-use-router',
+        },
+        {
+          text: 'useState',
+          link: '/nuxt3/composable-use-state',
+        },
         // {
         //   text: 'useHead',
         //   link: '/nuxt3/composable-use-head',
