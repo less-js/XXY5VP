@@ -168,6 +168,15 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
         // },
       ],
     },
+    {
+      text: 'Advanced',
+      items: [
+        {
+          text: 'Lifecycle Hooks',
+          link: '/nuxt3/advanced-lifecycle-hooks'
+        }
+      ]
+    },
     // {
     //   text: '配置',
     //   collapsible: true,

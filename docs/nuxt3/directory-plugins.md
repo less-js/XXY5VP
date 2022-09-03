@@ -64,7 +64,7 @@ export default defineNuxtPlugin((NuxtApp) => {
 
 ## 自动提供帮助方法
 
-如果想在`NuxtApp`实例上提供`helper`功能，只需在插件中返回一个带`provide`键值的对象即可。
+如果想在`NuxtApp`实例上提供`helper`功能，只需在插件中返回一个带[`provide`](/nuxt3/composable-use-nuxt-app#provide-name-value)键值的对象即可。
 
 例如：
 
