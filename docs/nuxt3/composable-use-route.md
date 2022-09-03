@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 useRoute
+title: Nuxt3 useRoute返回当前路由地址
 description: useRoute返回当前路由，必须在设置函数、插件或路由中间件中调用。在 Vue 中可以使用$route访问路由。
 tags: 
   - Nuxt3,useNuxtApp
@@ -9,9 +9,9 @@ head:
       content: Nuxt3,useNuxtApp
 ---
 
-# `useRoute` - 当前路由
+# `useRoute` - 返回当前路由地址
 
-`useRoute`返回当前路由，必须在`<script setup>`、插件或路由中间件中调用。
+`useRoute`返回当前路由地址，必须在`<script setup>`、`setup()`、插件或路由中间件中调用。
 
 在 Vue 中可以使用`$route`访问路由。
 
