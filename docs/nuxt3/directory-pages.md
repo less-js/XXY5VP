@@ -240,7 +240,7 @@ definePageMeta({
 
 ## Page Metadata 页面元数据
 
-想为应用程序中的每个路由定义元数据。你可以使用`definePageMeta`宏来做到这一点，它在`<script>`和`<script setup>`中都可以使用：
+想为应用程序中的每个路由定义元数据。可以使用`definePageMeta`宏来做到这一点，它在`<script>`或`<script setup>`中都可以使用：
 
 ```vue
 <script setup>
@@ -250,7 +250,7 @@ definePageMeta({
 </script>
 ```
 
-然后，可以通过路由在应用程序的其余部分访问`route.meta`对象。
+然后，可以通过路由在应用程序的其它地方访问`route.meta`对象。
 
 ```vue
 <script setup>

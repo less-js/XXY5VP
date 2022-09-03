@@ -2,11 +2,11 @@
 title: Nuxt3 useState响应式状态管理
 description: useState是一个 SSR 友好的ref替代品。它的值将会在服务端渲染（客户端渲染期间）后保留，并且使用唯一的键在所有组件之间共享。
 tags: 
-  - Nuxt3,useNuxtApp
+  - Nuxt3,useState
 head:
   - - meta
     - name: keywords
-      content: Nuxt3,useNuxtApp
+      content: Nuxt3,useState
 ---
 
 # `useState` - 响应式状态管理
