@@ -104,10 +104,10 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'useLazyFetch',
           link: '/nuxt3/composable-use-lazy-fetch',
         },
-        // {
-        //   text: 'useNuxtApp',
-        //   link: '/nuxt3/composable-use-nuxt-app',
-        // },
+        {
+          text: 'useNuxtApp',
+          link: '/nuxt3/composable-use-nuxt-app',
+        },
         // {
         //   text: 'useRoute',
         //   link: '/nuxt3/composable-use-route',
@@ -168,15 +168,15 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
         // },
       ],
     },
-    {
-      text: 'Advanced',
-      items: [
-        {
-          text: 'Lifecycle Hooks',
-          link: '/nuxt3/advanced-lifecycle-hooks'
-        }
-      ]
-    },
+    // {
+    //   text: 'Advanced',
+    //   items: [
+    //     {
+    //       text: 'Lifecycle Hooks',
+    //       link: '/nuxt3/advanced-lifecycle-hooks'
+    //     }
+    //   ]
+    // },
     // {
     //   text: '配置',
     //   collapsible: true,

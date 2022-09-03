@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 useNuxtApp异步请求数据
+title: Nuxt3 useNuxtApp运行时上下文
 description: useNuxtApp是一个内置的composable，它提供了一种访问 Nuxt 的运行时上下文的方法，在客户端和服务端都可用。
 tags: 
   - Nuxt3,useNuxtApp
@@ -9,7 +9,7 @@ head:
       content: Nuxt3,useNuxtApp
 ---
 
-# `useNuxtApp`
+# `useNuxtApp` - 运行时上下文
 
 `useNuxtApp`是一个在客户端和服务端都可用的内置的`composable`，可用于获取 Nuxt 的运行时上下文的方法。可以获取 Vue 实例、运行时钩子、运行时配置变量和内部状态，如`ssrContext`和`payload`。
 
