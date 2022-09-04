@@ -1,6 +1,6 @@
 ---
 title: Nuxt3 defineNuxtRouteMiddleware创建命名路由中间件 - Nuxt3中文文档
-description: Nuxt3 `defineNuxtRouteMiddleware`是一个用于创建命名路由中间件的辅助方法。
+description: Nuxt3 defineNuxtRouteMiddleware是一个用于创建命名路由中间件的辅助方法。
 tags: 
   - Nuxt3,defineNuxtRouteMiddleware
 head:
