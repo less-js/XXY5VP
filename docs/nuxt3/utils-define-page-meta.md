@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 definePageMeta创建命名路由中间件 - Nuxt3中文文档
+title: Nuxt3 definePageMeta设置页面元数据 - Nuxt3中文文档
 description: Nuxt3 definePageMeta是一个编译宏，可以用它来为`pages`目录下的页面组件设置元数据.
 tags: 
   - Nuxt3,definePageMeta
@@ -9,7 +9,7 @@ head:
       content: Nuxt3,definePageMeta
 ---
 
-# `definePageMeta` - 创建命名路由中间件
+# `definePageMeta` - 设置页面元数据
 
 `definePageMeta`是一个编译宏，可以用它来为`pages`目录下的页面组件设置元数据（除非[另有设置](https://v3.nuxtjs.org/api/configuration/nuxt.config#pages)）。这样就可以为 Nuxt 应用程序的每个静态或动态路由设置自定义元数据。
 
