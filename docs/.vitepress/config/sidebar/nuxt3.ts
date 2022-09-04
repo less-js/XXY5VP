@@ -146,6 +146,10 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: '$fetch',
           link: '/nuxt3/utils-fetch',
         },
+        {
+          text: 'navigateTo',
+          link: '/nuxt3/utils-navigate-to',
+        },
         // {
         //   text: 'abortNavigation',
         //   link: '/nuxt3/utils-abort-navigation',
@@ -161,10 +165,6 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
         // {
         //   text: 'definePageMeta',
         //   link: '/nuxt3/utils-define-page-meta',
-        // },
-        // {
-        //   text: 'navigateTo',
-        //   link: '/nuxt3/utils-navigate-to',
         // },
       ],
     },
