@@ -64,7 +64,7 @@ interface PageMeta {
 
     - Type: `false` | `string` | `((route: RouteLocationNormalizedLoaded) => string)`
 
-        当需要对`<NuxtPage>`组件重新渲染的时间进行更多的控制时，设置`key`值。
+        当需要对`<NuxtPage>`组件重新渲染的时进行更多的控制时，设置`key`值。
 
     #### `keepalive`
 

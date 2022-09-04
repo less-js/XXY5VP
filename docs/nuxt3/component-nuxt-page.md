@@ -35,7 +35,7 @@ head:
 
     type: 'string' | 'function'
 
-    `pageKey`有助于控制`<NuxtPage>`组件何时被重新渲染。
+    `pageKey`有助于`<NuxtPage>`组件被重新渲染的时候有更多的控制。
 
     通过传递`static` key，`<NuxtPage>`组件在挂载时只呈现一次。
 
