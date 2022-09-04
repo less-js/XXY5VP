@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 useRequestEvent获取请求事件相关的信息
+title: Nuxt3 useRequestEvent获取请求事件相关的信息 - Nuxt3中文文档
 description: 在页面、组件和插件中，可以使用`useRequestEvent`来获取传入的请求。
 tags: 
   - Nuxt3,useRequestEvent

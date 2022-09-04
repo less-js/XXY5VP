@@ -1,6 +1,6 @@
 import { DefaultTheme } from 'vitepress/dist/node'
 
-export const guideVitePress: DefaultTheme.Sidebar | undefined = {
+export const vitePress: DefaultTheme.Sidebar | undefined = {
   '/vitepress-cn': [
     {
       text: '介绍',

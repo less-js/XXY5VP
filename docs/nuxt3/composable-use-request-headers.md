@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 useRequestHeaders获取请求头
+title: Nuxt3 useRequestHeaders获取请求头 - Nuxt3中文文档
 description: 在页面、组件和插件中，可以使用`useRequestHeaders`来获取传入的请求。
 tags: 
   - Nuxt3,useRequestHeaders
@@ -9,7 +9,7 @@ head:
       content: Nuxt3,useRequestHeaders
 ---
 
-# `useRequestHeaders` - 获取请求头
+# `useRequestHeaders` - Cookie 读写
 
 在页面、组件和插件中，可以使用`useRequestHeaders`来获取请求头。
 

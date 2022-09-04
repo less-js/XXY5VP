@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 <NuxtErrorBoundary>错误处理组件
+title: Nuxt3 <NuxtErrorBoundary>错误处理组件 - Nuxt3中文文档
 description: Nuxt提供了＜NuxtErrorBoundary＞组件，使用Vue的onErrorCaptured钩子处理默认插槽中发生的客户端错误。
 tags: 
   - nuxt3,<NuxtErrorBoundary>,Nuxt3组件,Nuxt3错误处理

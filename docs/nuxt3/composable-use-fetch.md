@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 useFetch异步请求数据
+title: Nuxt3 useFetch异步请求数据 - Nuxt3中文文档
 description: useFetch是useAsyncData和$fetch封装。它根据 URL 和 fetch 选项自动生成 key，根据服务器路由为请求 URL 提供类型提示，并推断 API 响应类型。
 tags: 
   - Nuxt3,Nuxt3数据请求,useFetch

@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 <NuxtPage>页面组件
+title: Nuxt3 <NuxtPage>页面组件 - Nuxt3中文文档
 description: <NuxtPage>是Nuxt自带的一个内置组件。NuxtPage组件需要用来显示位于/pages目录下的顶层或嵌套页面。
 tags: 
   - nuxt3,<NuxtPage>,nuxt页面组件,Nuxt3组件

@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 navigateTo编程式导航
+title: Nuxt3 navigateTo编程式导航 - Nuxt3中文文档
 description: Nuxt3 navigateTo是一个路由辅助函数，通过编程式导航实现在Nuxt应用程序中导航。
 tags: 
   - Nuxt3,navigateTo

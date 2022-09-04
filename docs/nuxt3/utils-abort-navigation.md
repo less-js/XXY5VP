@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 abortNavigation阻止导航跳转
+title: Nuxt3 abortNavigation阻止导航跳转 - Nuxt3中文文档
 description: Nuxt3 abortNavigation是一个辅助函数，它可以阻止导航的发生，其唯一的参数是可选的。当传入参数后会抛出一个错误。
 tags: 
   - Nuxt3,abortNavigation

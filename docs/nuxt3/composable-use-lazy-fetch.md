@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 useFetch异步请求数据
+title: Nuxt3 useFetch异步请求数据 - Nuxt3中文文档
 description: useLazyFetch是useFetch的封装，通过将lazy选项设置为true，也就是它不会阻塞路由导航。
 tags: 
   - Nuxt3,Nuxt3数据请求,useFetch

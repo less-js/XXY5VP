@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 useRouter返回路由实例
+title: Nuxt3 useRouter返回路由实例 - Nuxt3中文文档
 description: useRouter返回路由实例，必须在<script setup>、插件或路由中间件中调用。在 Vue 中使用$router访问路由实例。
 tags: 
   - Nuxt3,useRouter

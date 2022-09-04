@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 API之$fetch获取数据
+title: Nuxt3 API之$fetch获取数据 - Nuxt3中文文档
 description: Nuxt使用`ohmyfetch`在全局范围内公开`$fetch`助手，用于在 Vue 应用或 API 路由中进行 HTTP 请求。
 tags: 
   - Nuxt3,Nuxt3 $fetch

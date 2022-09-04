@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 useNuxtApp运行时上下文
+title: Nuxt3 useNuxtApp运行时上下文 - Nuxt3中文文档
 description: useNuxtApp是一个内置的composable，它提供了一种访问 Nuxt 的运行时上下文的方法，在客户端和服务端都可用。
 tags: 
   - Nuxt3,useNuxtApp

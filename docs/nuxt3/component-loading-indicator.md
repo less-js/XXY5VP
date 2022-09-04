@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 <NuxtLoadingIndicator>页面加载进度组件
+title: Nuxt3 <NuxtLoadingIndicator>页面加载进度组件 - Nuxt3中文文档
 description: Nuxt 提供<NuxtLoadingIndicator>组件在页面导航上显示当前页面的加载状态进度条。
 tags: 
   - nuxt3,<NuxtLoadingIndicator>,nuxt进度条,nuxt加载条,Nuxt3组件

@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 composables 组合API目录
+title: Nuxt3 composables 组合API目录 - Nuxt3中文文档
 description: Nuxt3 composables 组合API目录是存放组合 API（Hooks） 的地方，以自动导入的方式将 Vue composables 导入到你的应用程序中!
 tags: 
   - Nuxt3,Nuxt3 composables

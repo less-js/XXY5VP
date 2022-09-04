@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 useLazyAsyncData异步请求数据
+title: Nuxt3 useLazyAsyncData异步请求数据 - Nuxt3中文文档
 description: useLazyAsyncData它不会阻塞路由导航，这意味着我们需要处理data为null的情况（或者通过default选项给data设置一个默认值）。
 tags: 
   - Nuxt3,Nuxt3请求数据,useLazyAsyncData

@@ -60,7 +60,7 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
     },
     {
       text: 'Component',
-      collapsed: true,
+      collapsible: true,
       items: [
         {
           text: '<NuxtLayout>',
@@ -154,10 +154,10 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'abortNavigation',
           link: '/nuxt3/utils-abort-navigation',
         },
-        // {
-        //   text: 'addRouteMiddleware',
-        //   link: '/nuxt3/utils-add-route-middleware',
-        // },
+        {
+          text: 'addRouteMiddleware',
+          link: '/nuxt3/utils-add-route-middleware',
+        },
         // {
         //   text: 'defineNuxtRouteMiddleware',
         //   link: '/nuxt3/utils-define-nuxt-route-middleware',

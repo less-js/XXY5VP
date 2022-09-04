@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 <NuxtLink>链接组件
+title: Nuxt3 <NuxtLink>链接组件 - Nuxt3中文文档
 description: Nuxt 提供＜NuxtLink＞组件来处理应用程序中的任何类型的链接。＜NuxtLink＞是 Vue Router 的＜RouterLink＞组件和 HTML 的＜a＞标签的直接替代品。
 
 tags: 

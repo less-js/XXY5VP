@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 ＜NuxtLayout＞布局组件
+title: Nuxt3 ＜NuxtLayout＞布局组件 - Nuxt3中文文档
 description: Nuxt3可以使用`<NuxtLayout />`组件来激活`app.vue`或`error.vue`的默认布局,甚至是`pages`目录下的页面组件的默认布局。
 tags: 
   - nuxt3,＜NuxtLayout>,nuxt布局组件,Nuxt3组件

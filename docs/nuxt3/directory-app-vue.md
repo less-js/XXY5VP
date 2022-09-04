@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 app.vue入口组件
+title: Nuxt3 app.vue入口组件 - Nuxt3中文文档
 description: Nuxt3 app.vue文件是 Nuxt 3 应用程序中的入口组件。
 tags: 
   - Nuxt3,Nuxt3 app.vue

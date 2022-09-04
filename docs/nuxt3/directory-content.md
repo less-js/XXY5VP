@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 content内容目录
+title: Nuxt3 content内容目录 - Nuxt3中文文档
 description: Nuxt Content 模块读取项目中content目录中的内容，并解析`.md`、`.yml`、`.csv`和`.json`文件，为应用程序创建一个基于文件的 CMS。
 tags: 
   - Nuxt3 content

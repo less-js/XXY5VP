@@ -1,5 +1,5 @@
 ---
-title: Nuxt 3 目录
+title: Nuxt3 目录 - Nuxt3中文文档
 description: Nuxt 是一个约定优先的 web 开发框架，部分功能是基于目录结构的。
 tags: 
   - nuxt3,nuxt3目录

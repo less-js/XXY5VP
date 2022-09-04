@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 plugins 插件目录
+title: Nuxt3 plugins 插件目录 - Nuxt3中文文档
 description: Nuxt3 会自动读取 plugins 插件目录中的文件并加载它们。可以在文件名中使用`.server`或`.client`后缀，以便只在服务器或客户端加载一个插件。
 tags: 
   - Nuxt3,Nuxt3 plugins,Nuxt3插件
