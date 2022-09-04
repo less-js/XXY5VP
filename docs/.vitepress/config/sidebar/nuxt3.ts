@@ -128,14 +128,14 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'useCookie',
           link: '/nuxt3/composable-use-cookie',
         },
-        // {
-        //   text: 'useRequestEvent',
-        //   link: '/nuxt3/composable-use-request-event',
-        // },
-        // {
-        //   text: 'useRequestHeaders',
-        //   link: '/nuxt3/composable-use-request-headers',
-        // },
+        {
+          text: 'useRequestEvent',
+          link: '/nuxt3/composable-use-request-event',
+        },
+        {
+          text: 'useRequestHeaders',
+          link: '/nuxt3/composable-use-request-headers',
+        },
       ],
     },
     {
