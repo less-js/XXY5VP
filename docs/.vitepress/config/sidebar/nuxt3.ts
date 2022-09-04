@@ -120,14 +120,14 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'useState',
           link: '/nuxt3/composable-use-state',
         },
-        // {
-        //   text: 'useHead',
-        //   link: '/nuxt3/composable-use-head',
-        // },
-        // {
-        //   text: 'useCookie',
-        //   link: '/nuxt3/composable-use-cookie',
-        // },
+        {
+          text: 'useHead',
+          link: '/nuxt3/composable-use-head',
+        },
+        {
+          text: 'useCookie',
+          link: '/nuxt3/composable-use-cookie',
+        },
         // {
         //   text: 'useRequestEvent',
         //   link: '/nuxt3/composable-use-request-event',

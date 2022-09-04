@@ -60,6 +60,12 @@ const theme = [
     icon: '/images/logo/themeforest.png',
     info: 'Professional WordPress Themes & Website Templates for any project',
   },
+  {
+    title: '美页',
+    link: 'https://www.meiye.art/inspiration',
+    icon: '/images/logo/meiye.png',
+    info: '移动端模板、素材、插画、标志集合',
+  },
 ]
 </script>
 
