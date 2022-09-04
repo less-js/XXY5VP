@@ -158,10 +158,10 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'addRouteMiddleware',
           link: '/nuxt3/utils-add-route-middleware',
         },
-        // {
-        //   text: 'defineNuxtRouteMiddleware',
-        //   link: '/nuxt3/utils-define-nuxt-route-middleware',
-        // },
+        {
+          text: 'defineNuxtRouteMiddleware',
+          link: '/nuxt3/utils-define-nuxt-route-middleware',
+        },
         // {
         //   text: 'definePageMeta',
         //   link: '/nuxt3/utils-define-page-meta',

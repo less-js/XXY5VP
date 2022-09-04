@@ -1,6 +1,6 @@
 ---
 title: Nuxt3 addRouteMiddleware动态添加路由中间件 - Nuxt3中文文档
-description: Nuxt3 是一个用于在 Nuxt 中实现动态添加路由中间件的辅助方法。
+description: Nuxt3 addRouteMiddleware是一个用于在 Nuxt 中实现动态添加路由中间件的辅助方法。
 tags: 
   - Nuxt3,addRouteMiddleware
 head:
@@ -25,24 +25,24 @@ addRouteMiddleware (name: string | RouteMiddleware, middleware?: RouteMiddleware
 
 ## 参数
 
-- `name`
+### `name`
 
-type: string | RouteMiddleware
+- Type: string | RouteMiddleware
 
 `name`可以是字符串，也可以是`RouteMiddleware`类型的函数。 该函数将`to`(即将要进入的路由)作为第一个参数，将`from`(当前导航正要离开的路由)作为第二个参数，这两个参数都是 Vue 路由对象。
 
 > 了解有关[路由对象](/nuxt3/composable-use-route)详细信息
 
-- `middleware`
+### `middleware`
 
-type: RouteMiddleware
+- Type: RouteMiddleware
 
 `middleware`参数是一个`RouteMiddleware`类型的函数。和`name`参数是函数时一样，具有`to`和`from`参数。如果`addRouteMiddleware()`中的第一个参数是函数时，它就成为可选参数。
 
 
-- `options`
+### `options`
 
-type: AddRouteMiddlewareOptions
+- Type: AddRouteMiddlewareOptions
 
 一个可选的`options`参数允许把`global`的值设置为`true`，以表明路由中间件是否是全局的（默认设置为`false`）。
 
