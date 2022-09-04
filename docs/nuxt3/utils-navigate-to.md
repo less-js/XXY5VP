@@ -1,5 +1,5 @@
 ---
-title: Nuxt3 navigateTo
+title: Nuxt3 navigateTo编程式导航
 description: Nuxt3 navigateTo是一个路由辅助函数，通过编程式导航实现在Nuxt应用程序中导航。
 tags: 
   - Nuxt3,navigateTo
@@ -9,7 +9,7 @@ head:
       content: Nuxt3,navigateTo
 ---
 
-# `navigateTo` - 入口组件
+# `navigateTo` - 编程式导航
 
 `navigateTo`是一个路由辅助函数，通过编程式导航实现在 Nuxt 应用程序中导航。
 
@@ -41,11 +41,11 @@ return navigateTo({ path: '/search' })
 
 // route object with query parameters
 return navigateTo({
-    path: '/search',
-    query: {
-        name: name.value,
-        type: type.value
-    }
+  path: '/search',
+  query: {
+      name: name.value,
+      type: type.value
+  }
 })
 </script>
 ```
@@ -61,7 +61,7 @@ export default defineNuxtRouteMiddleware((to, from) => {
 
 ```vue
 <script setup>
-    await navigateTo('/', { replace: true })
+  await navigateTo('/', { replace: true })
 </script>
 ```
 

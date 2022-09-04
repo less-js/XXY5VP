@@ -150,10 +150,10 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'navigateTo',
           link: '/nuxt3/utils-navigate-to',
         },
-        // {
-        //   text: 'abortNavigation',
-        //   link: '/nuxt3/utils-abort-navigation',
-        // },
+        {
+          text: 'abortNavigation',
+          link: '/nuxt3/utils-abort-navigation',
+        },
         // {
         //   text: 'addRouteMiddleware',
         //   link: '/nuxt3/utils-add-route-middleware',
