@@ -185,14 +185,14 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'app.config.ts',
           link: '/nuxt3/configuration-app-config',
         },
-        // {
-        //   text: 'nuxt.config.ts',
-        //   link: '/nuxt3/configuration-nuxt-config',
-        // },
-        // {
-        //   text: '.nuxtignore',
-        //   link: '/nuxt3/configuration-nuxtignore',
-        // },
+        {
+          text: 'nuxt.config.ts',
+          link: '/nuxt3/configuration-nuxt-config',
+        },
+        {
+          text: '.nuxtignore',
+          link: '/nuxt3/configuration-nuxtignore',
+        },
       ],
     },
     // {
