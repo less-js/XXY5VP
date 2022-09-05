@@ -16,7 +16,7 @@ Nuxt提供了一个强大的`Hooks`系统，使用[`unjs/hookable`](https://gith
 
 ## 构建时钩子
 
-这些钩子可用于[Nuxt 模块](/nuxt3/advanced-module-author-guide)和构建上下文。
+这些钩子可用于[Nuxt 模块](https://v3.nuxtjs.org/guide/going-further/modules/)和构建上下文。
 
 ### `nuxt.config.ts` 中使用
 
@@ -49,9 +49,9 @@ App 钩子主要被[Nuxt 插件](/nuxt3/directory-plugins)用来钩住渲染生�
 
 ```ts
 export default defineNuxtPlugin((nuxtApp) => {
-    nuxtApp.hook('page:start', () => {
-        /* your code goes here */
-     })
+  nuxtApp.hook('page:start', () => {
+    /* your code goes here */
+  })
 })
 ```
 

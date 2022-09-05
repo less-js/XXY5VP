@@ -175,34 +175,26 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'Lifecycle Hooks',
           link: '/nuxt3/advanced-lifecycle-hooks',
         },
+      ],
+    },
+    {
+      text: '配置',
+      collapsible: true,
+      items: [
+        {
+          text: 'app.config.ts',
+          link: '/nuxt3/configuration-app-config',
+        },
         // {
-        //   text: 'Module Author Guide',
-        //   link: '/nuxt3/advanced-module-author-guide',
+        //   text: 'nuxt.config.ts',
+        //   link: '/nuxt3/configuration-nuxt-config',
         // },
         // {
-        //   text: 'Nuxt Kit',
-        //   link: '/nuxt3/advanced-nuxt-kit',
+        //   text: '.nuxtignore',
+        //   link: '/nuxt3/configuration-nuxtignore',
         // },
       ],
     },
-    // {
-    //   text: '配置',
-    //   collapsible: true,
-    //   items: [
-    //     {
-    //       text: 'app.config.ts',
-    //       link: '/nuxt3/configuration-app-config',
-    //     },
-    //     {
-    //       text: 'nuxt.config.ts',
-    //       link: '/nuxt3/configuration-nuxt-config',
-    //     },
-    //     {
-    //       text: '.nuxtignore',
-    //       link: '/nuxt3/configuration-nuxtignore',
-    //     },
-    //   ],
-    // },
     // {
     //   text: 'Commands',
     //   items: [
