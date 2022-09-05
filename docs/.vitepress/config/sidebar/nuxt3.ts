@@ -168,15 +168,23 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
         },
       ],
     },
-    // {
-    //   text: 'Advanced',
-    //   items: [
-    //     {
-    //       text: 'Lifecycle Hooks',
-    //       link: '/nuxt3/advanced-lifecycle-hooks'
-    //     }
-    //   ]
-    // },
+    {
+      text: 'Advanced',
+      items: [
+        {
+          text: 'Lifecycle Hooks',
+          link: '/nuxt3/advanced-lifecycle-hooks',
+        },
+        // {
+        //   text: 'Module Author Guide',
+        //   link: '/nuxt3/advanced-module-author-guide',
+        // },
+        // {
+        //   text: 'Nuxt Kit',
+        //   link: '/nuxt3/advanced-nuxt-kit',
+        // },
+      ],
+    },
     // {
     //   text: '配置',
     //   collapsible: true,
