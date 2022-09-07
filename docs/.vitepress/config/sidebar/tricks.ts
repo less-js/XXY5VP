@@ -9,6 +9,10 @@ export const tricks: DefaultTheme.Sidebar | undefined = {
       collapsible: true,
       items: [
         {
+          text: '背景倾斜',
+          link: '/tricks/css-skew-y',
+        },
+        {
           text: '吸引力',
           link: '/tricks/css-appeal',
         },
