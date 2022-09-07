@@ -3,47 +3,59 @@ import { DefaultTheme } from 'vitepress/dist/node'
 export const tricks: DefaultTheme.Sidebar | undefined = {
   '/tricks': [
     // NodeJS
-
-    // JavaScript 常用函数
-    {
-      text: 'JavaScript Functions',
-      collapsible: true,
-      items: [
-        {
-          text: '列表转树结构',
-          link: '/tricks/js-array-to-tree',
-        },
-        {
-          text: '树结构转列表',
-          link: '/tricks/js-array-tree-to-array',
-        },
-        {
-          text: '遍历树结构',
-          link: '/tricks/js-array-foreach-tree',
-        },
-        {
-          text: '筛选树结构',
-          link: '/tricks/js-array-filter-tree',
-        },
-        {
-          text: '查询树结构',
-          link: '/tricks/js-array-find-tree',
-        },
-        {
-          text: '数组排序',
-          link: '/tricks/js-array-order-by',
-        },
-        {
-          text: '对象深拷贝',
-          link: '/tricks/js-object-deep-copy',
-        },
-      ],
-    },
     // CSS - 技巧
     {
       text: 'CSS Tricks',
       collapsible: true,
       items: [
+        {
+          text: '吸引力',
+          link: '/tricks/css-appeal',
+        },
+        {
+          text: '扎实的描绘',
+          link: '/tricks/css-solid-drawing',
+        },
+        {
+          text: '夸张手法',
+          link: '/tricks/css-exaggeration',
+        },
+        {
+          text: '时间节奏',
+          link: '/tricks/css-timing',
+        },
+        {
+          text: '次要动作',
+          link: '/tricks/css-secondary-action',
+        },
+        {
+          text: '弧线运动',
+          link: '/tricks/css-arc',
+        },
+        {
+          text: '缓入缓出',
+          link: '/tricks/css-slow-in-and-slow-out',
+        },
+        {
+          text: '跟随和重叠动作',
+          link: '/tricks/css-follow-through-and-overlapping-action',
+        },
+        {
+          text: '连续运动和姿态对应',
+          link: '/tricks/css-straight-ahead-action-and-pose-to-pose',
+        },
+        {
+          text: '演出布局',
+          link: '/tricks/css-staging',
+        },
+        {
+          text: '预备动作',
+          link: '/tricks/css-anticipation',
+        },
+        {
+          text: '挤压和拉伸',
+          link: '/tricks/css-squash-and-stretch',
+        },
         {
           text: 'Flex 文本省略号',
           link: '/tricks/css-flex-text-ellipsis',
@@ -83,6 +95,41 @@ export const tricks: DefaultTheme.Sidebar | undefined = {
         {
           text: '1px边框',
           link: '/tricks/css-one-pixel-line',
+        },
+      ],
+    },
+    // JavaScript 常用函数
+    {
+      text: 'JavaScript Functions',
+      collapsible: true,
+      items: [
+        {
+          text: '列表转树结构',
+          link: '/tricks/js-array-to-tree',
+        },
+        {
+          text: '树结构转列表',
+          link: '/tricks/js-array-tree-to-array',
+        },
+        {
+          text: '遍历树结构',
+          link: '/tricks/js-array-foreach-tree',
+        },
+        {
+          text: '筛选树结构',
+          link: '/tricks/js-array-filter-tree',
+        },
+        {
+          text: '查询树结构',
+          link: '/tricks/js-array-find-tree',
+        },
+        {
+          text: '数组排序',
+          link: '/tricks/js-array-order-by',
+        },
+        {
+          text: '对象深拷贝',
+          link: '/tricks/js-object-deep-copy',
         },
       ],
     },
