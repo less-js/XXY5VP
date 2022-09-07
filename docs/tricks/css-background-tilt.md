@@ -21,7 +21,7 @@ head:
 
 - 单位: `%`、`em`、`px`等具体的值，也可以是`top`、`right`、`bottom`、`left`和`center`这样的关键词
 
-利用上述属性加上`@keyframes`可扩展出[2D 环绕](/tricks/css-2d-surround)和[2D Loading](/tricks/css-2d-loading)动画
+> 用`transform-origin`加上`@keyframes`可扩展出[2D 环绕](/tricks/css-2d-surround)和[2D Loading](/tricks/css-2d-loading)动画
 
 ## 预览效果
 
