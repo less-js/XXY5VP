@@ -21,6 +21,38 @@ head:
 
 - 单位: `%`、`em`、`px`等具体的值，也可以是`top`、`right`、`bottom`、`left`和`center`这样的关键词
 
+## 预览效果
+
+<style>
+.corner {
+  margin-bottom: 120px;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background: #42b883;
+  transform: skewY(-6deg);
+  transform-origin: 100% 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.corner .content {
+  position: absolute;
+  transform: skewY(6deg);
+  width: 100%;
+  height: 100px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+</style>
+
+<div class="corner"><div class="content">背景倾斜</div></div>
+
 ## HTML
 
 ```html
@@ -36,7 +68,7 @@ head:
   top: 0;
   width: 100%;
   height: 100vh;
-  background: #092540;
+  background: #42b883;
   transform: skewY(-6deg);
   transform-origin: 100% 0;
   overflow: hidden;

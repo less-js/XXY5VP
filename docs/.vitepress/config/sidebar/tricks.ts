@@ -9,8 +9,16 @@ export const tricks: DefaultTheme.Sidebar | undefined = {
       collapsible: true,
       items: [
         {
+          text: '2D 加载动画',
+          link: '/tricks/css-2d-loading',
+        },
+        {
+          text: '2D 环绕动画',
+          link: '/tricks/css-2d-surround',
+        },
+        {
           text: '背景倾斜',
-          link: '/tricks/css-skew-y',
+          link: '/tricks/css-background-tilt',
         },
         {
           text: '吸引力',
