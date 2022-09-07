@@ -20,7 +20,6 @@ head:
 <style>
 .outer {
   margin-top: 40px;
-  /**定义子元素水平居中**/
   display:flex;
   justify-content:center;
   width: 100px;
@@ -75,43 +74,42 @@ head:
 
 ```css
 .outer {
-  /**定义子元素水平居中**/
-  display:flex;
-  justify-content:center;
+  display: flex;
+  justify-content: center;
   width: 100px;
   height: 100px;
   background-color: #6a5acd8c;
-  position:relative;
+  position: relative;
 }
 /**竖向辅助线**/
-.vertical-line{
-  position:absolute;
-  left:50%;
-  transform:translateX(-50%);
-  height:100%;
-  width:1px;
-  background:#000;
+.vertical-line {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 1px;
+  background: #000;
 }
 /**横向辅助线**/
-.horizontal-line{
-  position:absolute;
-  top:50%;
-  transform:translateY(-50%);
-  width:100%;
-  height:1px;
-  background:#000;
+.horizontal-line {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 1px;
+  background: #000;
 }
 .inner {
-  width:20px;
-  height:20px;
-  border-radius:50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
   background-color: #6a5acdeb;
-  transform-origin:50% 50px;/**50px为环绕半径*/
-  animation:an-circle 3s ease-in-out infinite;
+  transform-origin: 50% 50px; /**50px为环绕半径*/
+  animation: an-circle 3s ease-in-out infinite;
 }
-@keyframes an-circle  {
-    to {
-      transform: rotate(1turn);
-    }
+@keyframes an-circle {
+  to {
+    transform: rotate(1turn);
+  }
 }
 ```
