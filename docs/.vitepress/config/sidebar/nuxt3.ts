@@ -195,27 +195,43 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
         },
       ],
     },
-    // {
-    //   text: 'Commands',
-    //   items: [
-    //     {
-    //       text: 'nuxi init',
-    //       link: '/nuxt3/command-nuxi-init',
-    //     },
-    //     {
-    //       text: 'nuxi add',
-    //       link: '/nuxt3/command-nuxi-add',
-    //     },
-    //     {
-    //       text: 'nuxi preview',
-    //       link: '/nuxt3/command-nuxi-preview',
-    //     },
-    //     {
-    //       text: 'nuxi upgrade',
-    //       link: '/nuxt3/command-nuxi-upgrade',
-    //     },
-    //   ],
-    // },
+    {
+      text: 'Commands',
+      items: [
+        {
+          text: 'nuxi init',
+          link: '/nuxt3/command-nuxi-init',
+        },
+        {
+          text: 'nuxi dev',
+          link: '/nuxt3/command-nuxi-dev',
+        },
+        {
+          text: 'nuxi build',
+          link: '/nuxt3/command-nuxi-build',
+        },
+        {
+          text: 'nuxi preview',
+          link: '/nuxt3/command-nuxi-preview',
+        },
+        {
+          text: 'nuxi generate',
+          link: '/nuxt3/command-nuxi-generate',
+        },
+        {
+          text: 'nuxi add',
+          link: '/nuxt3/command-nuxi-add',
+        },
+        {
+          text: 'nuxi cleanup',
+          link: '/nuxt3/command-nuxi-cleanup',
+        },
+        {
+          text: 'nuxi upgrade',
+          link: '/nuxt3/command-nuxi-upgrade',
+        },
+      ],
+    },
     // {
     //   text: '部署',
     //   collapsible: true,
