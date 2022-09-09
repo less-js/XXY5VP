@@ -175,6 +175,10 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           text: 'Lifecycle Hooks',
           link: '/nuxt3/advanced-lifecycle-hooks',
         },
+        {
+          text: 'ESlint',
+          link: '/nuxt3/advanced-eslint',
+        },
       ],
     },
     {
