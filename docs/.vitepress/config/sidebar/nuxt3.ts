@@ -25,6 +25,10 @@ export const nuxt3: DefaultTheme.Sidebar | undefined = {
           link: '/nuxt3/directory-app-vue',
         },
         {
+          text: 'Assets',
+          link: '/nuxt3/directory-assets',
+        },
+        {
           text: 'Components',
           link: '/nuxt3/directory-components',
         },
