@@ -46,7 +46,7 @@ Nuxt提供了一个可定制的布局框架，可以在整个应用程序中使�
 </template>
 ```
 
-## 设置其它 Layout
+## 自定义 Layout
 
 ```
 -| layouts/
@@ -71,13 +71,13 @@ const layout = "custom";
 </script>
 ```
 
-2. 每页设置不同的布局：
+2. 设置不同的布局：
 
 `~/pages/index.vue`
 
 ```vue
 <script>
-// 这`<script setup>`和`<script>`中都可以使用
+// 在`<script setup>`和`<script>`中都可以使用
 definePageMeta({
   layout: "custom",
 });
@@ -119,7 +119,7 @@ definePageMeta({
 
 如上实现了`app.vue`和`~/pages/index.vue`有各自有不同的布局方式
 
-## 每页重写布局
+## 重写布局
 
 如果使用`~/pages`集成，可以通过设置`layout: false`，然后<strong style="font-weight: 700">在`~/pages`页面中使用`<NuxtLayout>`组件结合`slot`</strong>来实现完全控制。
 
