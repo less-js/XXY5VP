@@ -280,6 +280,26 @@ yarn add -D vue-eslint-parser @vue/eslint-config-typescript
 }
 ```
 
+## Nuxt ESLint配置
+
+安装:
+
+```sh
+yarn add  -D @nuxtjs/eslint-config @nuxtjs/eslint-config-typescript
+```
+
+修改`.eslintrc.js`:
+
+```js
+extends: [
+  '@nuxtjs/eslint-config-typescript'
+]
+```
+
+::: tip
+安装了`@nuxtjs/eslint-config-typescript`后，该插件规则要求函数名称和调用它的左括号之间有空格，为防止和 ESlint 冲突，最好关闭`func-call-spacing`规则，即: `'func-call-spacing': 'off'`
+:::
+
 ## 配置 Husky 与 Lint Staged
 
 配置 Husky 与 Lint Staged 让每次提交代码时都自动执行一次格式化，就能确保所有人提交上去的代码风格一致。
@@ -339,6 +359,87 @@ yarn add -D lint-staged
 ```
 
 至此，当`git commit -m 'first commit'`时就会对代码进行统一格式化。
+
+## `.eslintrc.js`配置示例
+
+```js
+module.exports = {
+  root: true,
+  env: {
+    browser: true,
+    es2021: true,
+    node: true,
+  },
+  extends: [
+    'eslint:recommended',
+    'plugin:vue/vue3-essential',
+    'plugin:@typescript-eslint/recommended',
+    'prettier',
+    '@nuxtjs/eslint-config-typescript',
+  ],
+  overrides: [],
+  parser: 'vue-eslint-parser',
+  parserOptions: {
+    parser: '@typescript-eslint/parser',
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  plugins: ['vue', '@typescript-eslint'],
+  rules: {
+    'vue/script-setup-uses-vars': 'error', // 防止 <script setup> 使用的变量 <template> 被标记为未使用
+    'vue/custom-event-name-casing': 'off', // 为自定义事件名称强制使用特定大小写
+    'vue/attributes-order': 'off',
+    'vue/one-component-per-file': 'off',
+    'vue/html-closing-bracket-newline': 'off',
+    'vue/max-attributes-per-line': 'off',
+    'vue/multiline-html-element-content-newline': 'off',
+    'vue/singleline-html-element-content-newline': 'off',
+    'vue/attribute-hyphenation': 'off',
+    'vue/require-default-prop': 'off',
+    'vue/html-self-closing': [
+      'error',
+      {
+        html: {
+          void: 'always',
+          normal: 'never',
+          component: 'always',
+        },
+        svg: 'always',
+        math: 'always',
+      },
+    ],
+    'vue/no-v-html': 'off',
+    'vue/multi-word-component-names':'off', // 关闭驼峰命名规则
+    
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
+    '@typescript-eslint/no-empty-function': 'off',
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
+    '@typescript-eslint/ban-types': 'off',
+    '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+      },
+    ],
+    'no-unused-vars': [
+      'error',
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+      },
+    ],
+    'space-before-function-paren': 'off',
+    'func-call-spacing': 'off', // 关闭函数名称和调用它的左括号之间的空格
+  },
+}
+```
 
 ## ESlint 常用规则
 
