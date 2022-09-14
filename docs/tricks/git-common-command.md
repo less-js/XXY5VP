@@ -95,7 +95,27 @@ git remote rename <old_name> <new_name>
 git rm <file name>        
 
 # 强制删除
-git rm <file name> -f           
+git rm <file name> -f   
+
+# 删除远程分支文件
+git rm --cached <filename>
+git commit -m "delete remote file filename "
+git push -u origin main
+
+# 删除远程文件夹
+git rm -r --cached <directory name>
+git commit -m "delete remote directory directory name "
+git push -u origin main
+
+# 删除本地文件和远程分支文件
+git rm <filename>
+git commit -m "delete file filename "
+git push -u origin main
+
+# 删除本地文件夹和远程分支文件夹
+git rm -r <directory name>
+git commit -m "delete directory directory name "
+git push -u origin main
 ```
 
 ## Rest - 回退
@@ -132,8 +152,14 @@ git branch dev
 # 从远程拉取分支并在本地创建新分支
 git fetch origin <远程分支名>:<本地新建分支名>
 
+# 关联本地分支与远程分支
+git branch --set-upstream-to=origin/<远程分支名> <本地分支名>
+
 # 把本地分支 push 到远程 dev 分支
 git push origin dev           
+
+# 提交并新建远程新分支
+git push --set-upstream origin <远程分支名>
 
 # 从当前分支切换到指定分支
 git checkout dev
@@ -167,29 +193,6 @@ git merge ---abort
 
 # 查看分支提交及文件状态
 git status
-
-# 保存不想提交的但是已经修改的内容
-git stash
-
-# 删除远程分支文件
-git rm --cached <filename>
-git commit -m "delete remote file filename "
-git push -u origin main
-
-# 删除远程文件夹
-git rm -r --cached <directory name>
-git commit -m "delete remote directory directory name "
-git push -u origin main
-
-# 删除本地文件和远程分支文件
-git rm <filename>
-git commit -m "delete file filename "
-git push -u origin main
-
-# 删除本地文件夹和远程分支文件夹
-git rm -r <directory name>
-git commit -m "delete directory directory name "
-git push -u origin main
 ```
 
 ## Log - 日志
@@ -242,4 +245,26 @@ git tag
 
 # 精确拉取指定的某个版本
 git fetch origin tag <版本号>
+```
+
+## 清空所有 commit 信息
+
+```sh
+# step 1
+git checkout --orphan <新分支名>
+
+# step 2
+git add .
+
+# step 3
+git commit -m 'init'
+
+# step 4
+git branch -D <需要删除的分支名>
+
+# step 5
+git branch -m <修改当前分支名>
+
+# step 6
+git push -f origin main
 ```
