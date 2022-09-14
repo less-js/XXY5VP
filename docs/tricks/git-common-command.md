@@ -166,7 +166,30 @@ git merge --no-ff -m “merge” dev
 git merge ---abort 
 
 # 查看分支提交及文件状态
-git status                 
+git status
+
+# 保存不想提交的但是已经修改的内容
+git stash
+
+# 删除远程分支文件
+git rm --cached <filename>
+git commit -m "delete remote file filename "
+git push -u origin main
+
+# 删除远程文件夹
+git rm -r --cached <directory name>
+git commit -m "delete remote directory directory name "
+git push -u origin main
+
+# 删除本地文件和远程分支文件
+git rm <filename>
+git commit -m "delete file filename "
+git push -u origin main
+
+# 删除本地文件夹和远程分支文件夹
+git rm -r <directory name>
+git commit -m "delete directory directory name "
+git push -u origin main
 ```
 
 ## Log - 日志
