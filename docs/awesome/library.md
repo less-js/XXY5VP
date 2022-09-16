@@ -42,6 +42,12 @@ const frame = [
     info: '基于 Vue.js 的服务端渲染应用框架',
   },
   {
+    title: 'Quasar',
+    link: 'https://quasar.dev/',
+    icon: '/images/logo/Quasar.svg',
+    info: 'Quasar 无缝地构建: SPA、SSR、PWA、BEX、移动应用、Electron应用',
+  },
+  {
     title: 'VitePress',
     link: 'https://vitepress.vuejs.org/',
     icon: '/images/logo/empty.svg',
