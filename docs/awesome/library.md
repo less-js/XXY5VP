@@ -144,6 +144,12 @@ const library = [
 
 const awesome = [
   {
+    title: 'Iconify',
+    link: 'https://github.com/iconify/iconify',
+    icon: '/images/logo/iconify.png',
+    info: 'Iconify 是最通用的图标框架',
+  },
+  {
     title: 'Animate.css',
     link: 'https://animate.style/',
     icon: '/images/logo/empty.svg',
