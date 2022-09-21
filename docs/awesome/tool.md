@@ -18,6 +18,12 @@ const generation = [
     info: '下一代前端构建工具',
   },
   {
+    title: 'electron-vite',
+    link: 'https://cn-evite.netlify.app/',
+    icon: '/images/logo/electron-vite.svg',
+    info: '下一代 Electron 开发与构建工具',
+  },
+  {
     title: 'webpack',
     link: 'https://webpack.js.org/',
     icon: '/images/logo/webpack.png',
