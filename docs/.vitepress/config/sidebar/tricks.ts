@@ -145,6 +145,17 @@ export const tricks: DefaultTheme.Sidebar | undefined = {
         },
       ],
     },
+    // 正则
+    {
+      text: '正则',
+      collapsible: true,
+      items: [
+        {
+          text: '常用正则',
+          link: '/tricks/regexp-common.md',
+        },
+      ],
+    },
     // Git
     {
       text: 'Git',
