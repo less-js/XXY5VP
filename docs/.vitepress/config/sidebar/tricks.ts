@@ -154,6 +154,10 @@ export const tricks: DefaultTheme.Sidebar | undefined = {
           text: '常用正则',
           link: '/tricks/regexp-common.md',
         },
+        {
+          text: '常用操作符',
+          link: '/tricks/regexp-operator.md',
+        },
       ],
     },
     // Git
