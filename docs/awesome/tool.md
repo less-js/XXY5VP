@@ -117,6 +117,12 @@ const development = [
     info: 'TabNine 是最好的代码补全工具，软件开发人员的 AI 助手',
   },
   {
+    title: 'Insomnia',
+    link: 'https://insomnia.rest/',
+    icon: '/images/logo/Insomnia.svg',
+    info: '一款类似 Postman 的 api 测试工具',
+  },
+  {
     title: 'Apifox',
     link: 'https://www.apifox.cn/',
     icon: '/images/logo/apifox.png',
