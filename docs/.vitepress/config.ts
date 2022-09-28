@@ -22,7 +22,7 @@ export default defineConfig({
     // message: 'Released under the MIT License.',
     // copyright: 'Copyright © 2022 xxy5.com'
     // }
-    
+
     // 搜索
     // algolia: {
     //   appId: '8J64VVRP8K',

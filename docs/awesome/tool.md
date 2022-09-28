@@ -99,16 +99,22 @@ const online = [
 
 const development = [
   {
-    title: 'TabNine',
-    link: 'https://www.tabnine.com/',
-    icon: '/images/logo/tabnine.png',
-    info: 'TabNine 是最好的代码补全工具，软件开发人员的 AI 助手',
+    title: 'Terminal Colors for VS Code',
+    link: 'https://glitchbone.github.io/vscode-base16-term/#/',
+    icon: '/images/logo/vscode-base16-term.png',
+    info: 'VS Code 终端界面美化主题'
   },
   {
     title: 'snippet generator',
     link: 'https://snippet-generator.app/',
     icon: '/images/logo/snippet-generator.png',
     info: 'VS Code 代码片段在线生成工具',
+  },
+  {
+    title: 'TabNine',
+    link: 'https://www.tabnine.com/',
+    icon: '/images/logo/tabnine.png',
+    info: 'TabNine 是最好的代码补全工具，软件开发人员的 AI 助手',
   },
   {
     title: 'Apifox',
@@ -122,6 +128,7 @@ const development = [
     icon: '/images/logo/DevToys.png',
     info: '提供格式化JSON、比较文本和测试RegExp、图片压缩等等功能',
   },
+
 ]
 </script>
 ## 构建工具
