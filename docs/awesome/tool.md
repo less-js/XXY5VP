@@ -111,10 +111,10 @@ const development = [
     info: 'VS Code 代码片段在线生成工具',
   },
   {
-    title: 'TabNine',
-    link: 'https://www.tabnine.com/',
-    icon: '/images/logo/tabnine.png',
-    info: 'TabNine 是最好的代码补全工具，软件开发人员的 AI 助手',
+    title: 'REST client',
+    link: 'https://marketplace.visualstudio.com/items?itemName=humao.rest-client',
+    icon: '/images/logo/REST-client.png',
+    info: 'VS Code 扩展：API 测试工具',
   },
   {
     title: 'Insomnia',
@@ -133,6 +133,12 @@ const development = [
     link: 'https://www.devtoys.app/',
     icon: '/images/logo/DevToys.png',
     info: '提供格式化JSON、比较文本和测试RegExp、图片压缩等等功能',
+  },
+  {
+    title: 'TabNine',
+    link: 'https://www.tabnine.com/',
+    icon: '/images/logo/tabnine.png',
+    info: 'TabNine 是最好的代码补全工具，软件开发人员的 AI 助手',
   },
 
 ]
