@@ -111,6 +111,12 @@ const development = [
     info: 'VS Code 代码片段在线生成工具',
   },
   {
+    title: 'Database client',
+    link: 'https://database-client.com/',
+    icon: '/images/logo/REST-client.png',
+    info: 'VS Code 的数据库客户端扩展, 支持MySQL/MariaDB, PostgreSQL, SQLite, Redis, ClickHouse, 达梦以及ElasticSearch的管理, 且可以作为一个SSH客户端',
+  },
+  {
     title: 'REST client',
     link: 'https://marketplace.visualstudio.com/items?itemName=humao.rest-client',
     icon: '/images/logo/REST-client.png',
