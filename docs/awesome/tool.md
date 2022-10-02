@@ -10,7 +10,7 @@ head:
 ---
 
 <script setup>
-const generation = [
+const build = [
   {
     title: 'Vite',
     link: 'https://vitejs.dev/',
@@ -61,6 +61,12 @@ const design = [
     link: 'https://www.mockplus.cn/',
     icon: '/images/logo/muke.png',
     info: '全能设计协作平台，产品经理用 RP，UI设计师用 DT',
+  },
+  {
+    title: 'Penpot',
+    link: 'https://penpot.app/',
+    icon: '/images/logo/Penpot.png',
+    info: '基于Web的开源设计作图工具和原型制作平台',
   },
 ]
 
@@ -146,12 +152,11 @@ const development = [
     icon: '/images/logo/tabnine.png',
     info: 'TabNine 是最好的代码补全工具，软件开发人员的 AI 助手',
   },
-
 ]
 </script>
 ## 构建工具
 
-<MyLink :links="generation"/>
+<MyLink :links="build"/>
 
 ## Development
 
