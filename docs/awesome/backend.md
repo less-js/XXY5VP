@@ -141,6 +141,12 @@ const awesome = [
 
 const sql = [
   {
+    title: 'PostgreSQL',
+    link: 'https://www.postgresql.org/',
+    icon: '/images/logo/PostgreSQL.png',
+    info: '最先进的开源关系数据库',
+  },
+  {
     title: 'Redis',
     link: 'https://redis.io/',
     icon: '/images/logo/redis.png',
@@ -205,6 +211,12 @@ const sql = [
     link: 'https://graphql.org/',
     icon: '/images/logo/graphql.svg',
     info: 'GraphQL 既是一种用于 API 的查询语言也是一个满足你数据查询的运行时',
+  },
+  {
+    title: 'pgAdmin',
+    link: 'https://www.pgadmin.org/',
+    icon: '/images/logo/pgAdmin.svg',
+    info: '开源免费的 PostgreSQL 数据库管理工具',
   },
 ]
 
