@@ -166,6 +166,6 @@ const development = [
 
 <MyLink :links="online"/>
 
-## 原型工具
+## 原型 & 设计
 
 <MyLink :links="design"/>

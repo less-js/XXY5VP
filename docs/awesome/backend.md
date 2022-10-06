@@ -84,6 +84,12 @@ const cms = [
 
 const awesome = [
   {
+    title: 'TNWX',
+    link: 'https://javen205.gitee.io/tnwx/',
+    icon: '/images/logo/empty.svg',
+    info: 'TNWX 微信公众号、小程序、支付、企业微信开发脚手架，',
+  },
+  {
     title: 'Zod',
     link: 'https://github.com/colinhacks/zod/blob/master/README_ZH.md',
     icon: '/images/logo/zod.png',
