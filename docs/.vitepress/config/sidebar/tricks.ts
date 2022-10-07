@@ -193,6 +193,10 @@ export const tricks: DefaultTheme.Sidebar | undefined = {
       collapsible: true,
       items: [
         {
+          text: 'Docker - MySQL',
+          link: '/tricks/mac-docker-mysql.md',
+        },
+        {
           text: 'Chrome网页截图',
           link: '/tricks/mac-chrome-capture.md',
         },

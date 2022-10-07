@@ -18,12 +18,6 @@ const nodejs = [
     info: 'Node.js 是运行在服务端的 JavaScript',
   },
   {
-    title: 'Awesome Node.js',
-    link: 'https://github.com/sindresorhus/awesome-nodejs',
-    icon: '/images/logo/github.png',
-    info: 'Awesome Node.js',
-  },
-  {
     title: 'Koa',
     link: 'https://koajs.com/',
     icon: '/images/logo/empty.svg',
@@ -83,6 +77,12 @@ const cms = [
 ]
 
 const awesome = [
+  {
+    title: 'Awesome Node.js',
+    link: 'https://github.com/sindresorhus/awesome-nodejs',
+    icon: '/images/logo/github.png',
+    info: 'Awesome Node.js',
+  },
   {
     title: 'TNWX',
     link: 'https://javen205.gitee.io/tnwx/',
