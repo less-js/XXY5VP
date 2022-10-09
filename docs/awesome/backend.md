@@ -143,6 +143,12 @@ const awesome = [
     icon: '/images/logo/npm.png',
     info: 'fs 模块的扩展，如：copy(), remove(), mkdirs()等等',
   },
+  {
+    title: 'class-validator',
+    link: 'https://github.com/typestack/class-validator',
+    icon: '/images/logo/empty.svg',
+    info: '基于装饰器和非装饰器的验证',
+  },
 ]
 
 const sql = [
@@ -211,6 +217,12 @@ const sql = [
     link: 'https://typeorm.io/',
     icon: '/images/logo/typeorm.png',
     info: 'TypeORM 是 node.js 现有社区最成熟的对象关系映射器（ORM ）',
+  },
+  {
+    title: 'TypeORM 中文',
+    link: 'https://typeorm.biunav.com/zh/',
+    icon: '/images/logo/typeorm.svg',
+    info: 'TypeORM 中文文档',
   },
   {
     title: 'GraphQL',
