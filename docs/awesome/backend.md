@@ -149,6 +149,12 @@ const awesome = [
     icon: '/images/logo/empty.svg',
     info: '基于装饰器和非装饰器的验证',
   },
+  {
+    title: 'Multer',
+    link: 'https://github.com/expressjs/multer',
+    icon: '/images/logo/empty.svg',
+    info: ' 处理 multipart/form-data 类型的表单数据中间件，主用于上传文件',
+  },
 ]
 
 const sql = [
