@@ -193,6 +193,10 @@ export const tricks: DefaultTheme.Sidebar | undefined = {
       collapsible: true,
       items: [
         {
+          text: 'Home-brew 镜像',
+          link: '/tricks/mac-home-brew.md',
+        },
+        {
           text: 'Docker - MySQL',
           link: '/tricks/mac-docker-mysql.md',
         },
