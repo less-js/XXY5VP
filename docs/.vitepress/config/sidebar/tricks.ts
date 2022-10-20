@@ -197,6 +197,10 @@ export const tricks: DefaultTheme.Sidebar | undefined = {
           link: '/tricks/mac-home-brew.md',
         },
         {
+          text: '安装 NVM',
+          link: '/tricks/mac-nvm.md',
+        },
+        {
           text: 'Docker - MySQL',
           link: '/tricks/mac-docker-mysql.md',
         },

@@ -13,7 +13,13 @@ head:
 
 ## 配置方法
 
-首先确保你已经安装好了 Homebrew 了, 如果没有, 请参考 OPSX 指引页的 Homebrew 文档；然后你只需要粘贴下述命令在对应终端运行。
+首先确保已经安装好了 Homebrew 了, 如果没有, 使用下述命令在对应终端运行:
+
+```sh
+/bin/bash -c "$(curl -fsSL https:/raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+详情请参考 [Homebrew](https://brew.sh/) 官方文档。
 
 ### Bash 终端配置
 
